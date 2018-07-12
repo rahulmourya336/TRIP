@@ -1,0 +1,12 @@
+<?php
+
+@name = $_POST['name'];
+@email = $_POST['email'];
+@password = $_POST['password'];
+@mobile = $_POST['mobile'];
+@status = 1;
+
+
+
+
+?>
