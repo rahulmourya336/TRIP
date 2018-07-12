@@ -24,11 +24,7 @@
 			<div class="signup__overlay"></div>
 		</div>
 		<div class="container__child signup__form">
-			<form action="./signup.php" onsubmit="return validateForm()" method="post" id="signup">
-				<div class="form-group">
-					<label for="username">Full Name</label>
-					<input class="form-control" type="text" name="name" id="name" placeholder="james.bond" required />
-				</div>
+			<form action="#">
 				<div class="form-group">
 					<label for="email">Email</label>
 					<input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
@@ -37,25 +33,13 @@
 					<label for="password">Password</label>
 					<input class="form-control" type="password" name="password" id="password" placeholder="********" required />
 				</div>
-				<div class="form-group">
-					<label for="passwordRepeat">Repeat Password</label>
-					<input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat" placeholder="********" required />
-				</div>
-
-				<!--				TODO - Add [+91] Style block bootstrap-->
-
-
-				<div class="form-group">
-					<label for="passwordRepeat">Contact Number</label>
-					<input class="form-control" type="number" name="mobile" id="mobile" placeholder="+91 XXXXXXXXXX" required />
-				</div>
 				<div class="m-t-lg">
 					<ul class="list-inline">
 						<li>
-							<input class="btn btn--form" type="submit" value="Register" />
+							<input class="btn btn--form" type="submit" value="Submit" />
 						</li>
 						<li>
-							<a class="signup__link" href="signin.php">I am already a member</a>
+							<a class="signup__link" href="index.php">I am a new member</a>
 						</li>
 					</ul>
 				</div>
@@ -66,16 +50,5 @@
 </body>
 
 
-<script>
-	function validateForm() {
-    var password = document.forms["signup"]["password"].value;
-    var repeat_password = document.forms["signup"]["passwordRepeat"].value;
-		
-    if (password !== repeatPassword) {
-        alert("Password is invalid");
-        return false;
-    }
-}
-</script>
 
 </html>
