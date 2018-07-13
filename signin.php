@@ -24,7 +24,7 @@
 			<div class="signup__overlay"></div>
 		</div>
 		<div class="container__child signup__form">
-			<form action="#">
+			<form action="script.php" method="post">
 				<div class="form-group">
 					<label for="email">Email</label>
 					<input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
@@ -48,7 +48,5 @@
 	</div>
 
 </body>
-
-
 
 </html>

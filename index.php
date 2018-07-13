@@ -24,7 +24,7 @@
 			<div class="signup__overlay"></div>
 		</div>
 		<div class="container__child signup__form">
-			<form action="./signup.php" onsubmit="return validateForm()" method="post" id="signup">
+			<form action="script.php" onsubmit="return  validateForm()" method="post" id="signup">
 				<div class="form-group">
 					<label for="username">Full Name</label>
 					<input class="form-control" type="text" name="name" id="name" placeholder="james.bond" required />
@@ -49,6 +49,7 @@
 					<label for="passwordRepeat">Contact Number</label>
 					<input class="form-control" type="number" name="mobile" id="mobile" placeholder="+91 XXXXXXXXXX" required />
 				</div>
+                <input type="hidden" name="route_status" value="1" id="route_status">
 				<div class="m-t-lg">
 					<ul class="list-inline">
 						<li>
@@ -68,11 +69,12 @@
 
 <script>
 	function validateForm() {
-    var password = document.forms["signup"]["password"].value;
-    var repeat_password = document.forms["signup"]["passwordRepeat"].value;
-		
+    var password = document.forms["signup"]["password"];
+    var repeat_password = document.forms["signup"]["passwordRepeat"];
+
     if (password !== repeatPassword) {
         alert("Password is invalid");
+
         return false;
     }
 }

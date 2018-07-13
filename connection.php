@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 
 @$connection = mysqli_connect('localhost', 'root', '', 'trip');
 
@@ -30,7 +30,7 @@ else{
 		background-color: green;
 		display: inline-block;
 	}
-	
+
 	.circle__status-error {
 		height: 50px;
 		width: 50px;
