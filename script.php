@@ -42,7 +42,11 @@ if ($route_flag) {
     $email = mysqli_real_escape_string($connection, $email);
     $password = mysqli_real_escape_string($connection, $password);
 
-    $sql = "SELECT * from user_trip";
+    $user_check_query = "SELECT * FROM trip_user WHERE u_email='$email' OR u_password='$password' LIMIT 1";
+    $result = mysqli_query($connection, $user_check_query);
+    $user = mysqli_fetch_assoc($result);
+
+    if
 
 }
 
