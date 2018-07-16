@@ -8,7 +8,7 @@ a,
   transition: all .25s ease-in;
 }
 
-.signup__container {
+.signup__container, .signin__container {
   position: absolute;
   top: 50%;
   right: 0;
@@ -27,7 +27,7 @@ a,
   box-shadow: 0px 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25);
 }
 
-.signup__overlay {
+.signup__overlay, .signin__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -42,7 +42,7 @@ a,
   color: #fff;
 }
 
-.signup__thumbnail {
+.signup__thumbnail, .signin__thumbnail {
   position: relative;
   padding: 2rem;
   display: flex;
@@ -85,6 +85,10 @@ h2 {
   font-weight: 300;
   color: white;
 }
+h5,h6{
+    font-weight: 200 !important;
+    color: black !important;
+}
 
 .heading--primary {
   font-size: 1.999rem;
@@ -107,7 +111,7 @@ h2 {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.signup__form {
+.signup__form, .signin__form {
   padding: 2.5rem;
   background: #fafafa;
 }
@@ -150,12 +154,29 @@ label {
   background: #323232;
 }
 
-.signup__link {
+.signup__link, .signin__link {
   font-size: .8rem;
   font-weight: 600;
   text-decoration: underline;
   color: #999;
 }
-.signup__link:focus, .signup__link:hover {
+.signup__link:focus, .signup__link:hover, .signin__link:focus, .signin__link:hover {
   color: #787878;
+}
+
+/*
+*
+*   Error information style
+*
+*/
+#error_info{
+  /*display: none;*/
+  font-size: 80%;
+  color: red;
+  margin: 0px;
+  padding:0px;
+}
+.alert {
+    position: relative;
+    width: 100%;
 }

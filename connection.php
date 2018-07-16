@@ -4,10 +4,10 @@
 @$connection = mysqli_connect('localhost', 'root', '', 'trip');
 
 if($connection){
-	echo "<h2> Up and online </h2> <div class='circle__Status-sucess blink_me'></div> ";
+	echo "<div class='circle__status-sucess blink_me'></div> ";
 }
 else{
-	echo "<h2> Start your XAMPP server</h2> <div class='circle__Status-error blink_me'></div>";
+	echo "<h2> Offline </h2> <div class='circle__status-error blink_me'></div>";
 }
 
 ?>
@@ -24,22 +24,22 @@ else{
 	}
 
 	.circle__status-sucess {
-		height: 50px;
-		width: 50px;
+		height: 30px;
+		width: 30px;
 		border-radius: 55px;
 		background-color: green;
 		display: inline-block;
 	}
 
 	.circle__status-error {
-		height: 50px;
-		width: 50px;
+		height: 30px;
+		width: 30px;
 		border-radius: 55px;
 		background-color: red;
 		display: inline-block;
 	}
 
-	h2 {
+	h3 {
 		display: inline-block;
 	}
 </style>

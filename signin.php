@@ -12,42 +12,76 @@
           href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
 
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <script>
+      function invalidCredentials () {
+        $().alert()
+        setTimeout(function () {$('.alert').alert('close')}, 2000)
+      }
+
+      window.onload = function () {
+        one = window.location.href
+        status = one.search('invalid')
+        if (status != -1) {
+          console.log('Error header found')
+          invalidCredentials()
+        }
+        else{
+            $('.alert').hide();
+        }
+      }
+
+    </script>
 
 </head>
 
 <body>
-<div class="signup__container">
-    <div class="container__child signup__thumbnail">
+
+<div class="signin__container">
+    <div class="container__child signin__thumbnail">
         <div class="thumbnail__content text-center">
             <h1 class="heading--primary">Welcome to TRIP</h1>
             <h2 class="heading--secondary">Travel Expense Manager</h2>
         </div>
-        <div class="signup__overlay"></div>
+        <div class="signin__overlay"></div>
     </div>
-    <div class="container__child signup__form">
+    <div class="container__child signin__form">
+        <div class="text-center">
+            <h5>Welcome back!</h5>
+            <h6 class="blockquote-footer">We're so excited to see you again!</h6>
+        </div>
+        <!--        Alert box -->
+        <div class="alert alert-danger alert-dismissible fade in" role="alert" id="error_info_alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+            </button>
+            <h6>Invalid username or password</h6>
+        </div>
+        <!--        End of Alert box-->
         <form action="script.php" method="post">
             <div class="form-group">
                 <label for="email">Email</label>
-                <input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com"
-                       required/>
+                <input class="form-control" type="email" name="email" id="email" placeholder="james.bond@spectre.com"
+                       required autofocus/>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
                 <input class="form-control" type="password" name="password" id="password" placeholder="********"
                        required/>
             </div>
-            <input type="hidden" name="route_status" value="1" id="route_status">
             <div class="m-t-lg">
                 <ul class="list-inline">
                     <li>
                         <input class="btn btn--form" type="submit" value="Submit"/>
                     </li>
                     <li>
-                        <a class="signup__link" href="index.php">I am a new member</a>
+                        <a class="signin__link" href="index.php">I am a new member</a>
                     </li>
                 </ul>
             </div>
         </form>
+
     </div>
 </div>
 
