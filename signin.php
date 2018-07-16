@@ -27,7 +27,6 @@
           $('.alert').hide();
         }
         else{
-          console.log('Error header found')
           invalidCredentials()
         }
       }
