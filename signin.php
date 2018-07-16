@@ -17,18 +17,18 @@
     <script>
       function invalidCredentials () {
         $().alert()
-        setTimeout(function () {$('.alert').alert('close')}, 2000)
+        setTimeout(function () {$('.alert').alert('close')}, 4000)
       }
 
       window.onload = function () {
         one = window.location.href
         status = one.search('invalid')
-        if (status != -1) {
-          console.log('Error header found')
-          invalidCredentials()
+        if (status == -1) {
+          $('.alert').hide();
         }
         else{
-            $('.alert').hide();
+          console.log('Error header found')
+          invalidCredentials()
         }
       }
 
