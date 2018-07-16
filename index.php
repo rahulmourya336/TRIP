@@ -12,7 +12,26 @@
           href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
 
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <script>
+      function invalidCredentials () {
+        $().alert()
+      }
 
+      window.onload = function () {
+        one = window.location.href
+        status = one.search('invalid')
+        if (status == -1) {
+          $('.alert').hide()
+        }
+        else {
+          console.log('Error header found')
+          invalidCredentials()
+        }
+      }
+
+    </script>
 </head>
 
 <body>
@@ -28,6 +47,14 @@
         <div class="text-center">
             <h5>Create an account</h5>
         </div>
+        <!--        Alert box -->
+        <div class="alert alert-danger alert-dismissible fade in" role="alert" id="error_info_alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+            </button>
+            <h6>Email already exist <a href="signin.php">Click here to signin</a></h6>
+        </div>
+        <!--        End of Alert box-->
         <form action="dummy_signup.php" onsubmit="" method="post"
               id="signup">
             <div class="form-group">
