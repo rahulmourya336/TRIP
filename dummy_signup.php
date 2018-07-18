@@ -45,7 +45,7 @@ if (isset($_POST['reg_user'])) {
         mysqli_query($connection, $query);
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are now logged in";
-        header('location: ./404.php');
+        header('location: ./dashboard.php');
     }
 
 

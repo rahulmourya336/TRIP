@@ -24,12 +24,19 @@
         one = window.location.href
         status = one.search('invalid')
         if (status == -1) {
-          $('.alert').hide();
+          $('.alert').hide()
         }
-        else{
+        else {
           invalidCredentials()
         }
+        two = window.location.href
+        status_2 = one.search('loginfirst')
+        if (status_2 != -1) {
+          $('.alert').show()
+          document.getElementById('error_info').innerHTML = 'You must first login to continue...'
+        }
       }
+
 
     </script>
 
@@ -55,7 +62,7 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
                         aria-hidden="true">&times;</span>
             </button>
-            <h6>Invalid username or password</h6>
+            <h6 id="error_info">Invalid username or password</h6>
         </div>
         <!--        End of Alert box-->
         <form action="script.php" method="post">

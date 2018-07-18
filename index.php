@@ -34,7 +34,7 @@
     </script>
 </head>
 
-<body>
+<body class="main-bg">
 <div class="signup__container">
     <div class="container__child signup__thumbnail">
         <div class="thumbnail__content text-center">
@@ -81,7 +81,7 @@
 
 
             <div class="form-group">
-                <label for="passwordRepeat">Contact Number</label>
+                <label for="mobile">Contact Number</label>
                 <input class="form-control" type="number" name="mobile" id="mobile" placeholder="+91 XXXXXXXXXX"
                        min="10"
                        required/>
