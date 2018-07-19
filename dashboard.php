@@ -92,6 +92,7 @@ if (isset($_SESSION["username"])) {
         </ul>
         <ul class=\"navbar-nav navbar-right\">
             <li class=\"nav-item\">
+            <?php echo \" $_SESSION[current_user]\" ?>
                 <a class=\"nav-link \" href=\"logout.php\">logout</a>
             </li>
         </ul>
@@ -109,6 +110,12 @@ if (isset($_SESSION["username"])) {
     <div class=\"col-md-2\">
         <!-- Trigger the modal with a button -->
         <button type=\"button\" class=\"btn btn-info btn-lg\" data-toggle=\"modal\" data-target=\"#myModal\">Add Trip</button>
+    </div>
+</div>
+
+<div class=\"card\" style=\"width: 18rem;\">
+    <img class=\"card-img-top\" src=\"\" alt=\"\">
+    <div class=\"card-body\">
     </div>
 </div>
 
