@@ -27,6 +27,32 @@ if (isset($_SESSION["username"])) {
 
     <link rel='stylesheet prefetch'
           href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+          <script>
+  window.onload = function () {
+    $('trip_status').hide()
+    var dateControl = document.querySelector('input[type=\"date\"]');
+    dateControl.value = '2017-06-01';
+    
+    one = window.location.href
+    status_success = one.search('success')
+    status_failed = one.search('error')
+    
+    if (status_success != -1) {
+      document.getElementById(\"trip_status\").classList.add(\"alert-success\");
+      document.getElementById(\"trip_status\").innerHTML += \"Trip added successful\"; 
+     
+    }
+    else if(status_failed != -1) {
+      document.getElementById(\"trip_status\").classList.add(\"alert-danger\");
+      document.getElementById(\"trip_status\").innerHTML += \"Error while adding\";
+    }
+    else{
+     $('#trip_status').hide(); 
+    }
+    
+  }
+</script>
+          
     <style>
         #addTrip {
             background-color: steelblue;
@@ -73,8 +99,7 @@ if (isset($_SESSION["username"])) {
     </div>
 </nav>
 
-<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+<div class=\"alert alert-dismissible fade show\" role=\"alert\" id='trip_status'>
   <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
     <span aria-hidden=\"true\">&times;</span>
   </button>
@@ -94,7 +119,7 @@ if (isset($_SESSION["username"])) {
         <!-- Modal content-->
         <div class=\"modal-content\">
             <div class=\"modal-header\">
-                <h4 class=\"modal-title\">Add Trip information</h4>
+                <h4 class=\"modal-title\">Add Trip Information</h4>
                 <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>
 
             </div>
@@ -104,25 +129,25 @@ if (isset($_SESSION["username"])) {
                     <div class=\"form-group row\">
                         <label for=\"trip-name\" class=\"col-sm-2 col-form-label\">Trip Name</label>
                         <div class=\"col-sm-10\">
-                            <input type=\"text\" class=\"form-control\" id=\"trip-name\" placeholder=\"St. Lucia.\" required autofocus />
+                            <input type=\"text\" class=\"form-control\" id=\"trip-name\" placeholder=\"St. Lucia.\" required autofocus name=\"trip-name\"/>
                         </div>
                     </div>
                     <div class=\"form-group row\">
                         <label for=\"trip-url\" class=\"col-sm-2 col-form-label\">Trip URL</label>
                         <div class=\"col-sm-10\">
-                            <input type=\"url\" class=\"form-control\" id=\"trip-url\" placeholder=\"http://someurl.com\" required>
+                            <input type=\"url\" class=\"form-control\" id=\"trip-url\" placeholder=\"http://someurl.com\" required name=\"trip-url\">
                         </div>
                     </div>
                     <div class=\"form-group row\">
                         <label for=\"trip-starting-date\" class=\"col-sm-2 col-form-label\">Starting Date</label>
                         <div class=\"col-sm-10\">
-                            <input type=\"date\" class=\"form-control\" id=\"trip-starting-date\" placeholder=\"Select Trip Starting Date\" required>
+                            <input type=\"date\" class=\"form-control\" id=\"trip-starting-date\" placeholder=\"Select Trip Starting Date\" required data-date-format=\"YYYY MM DD\" value=\"2018-08-09\" name=\"trip-starting-date\">
                         </div>
                     </div>
                     <div class=\"form-group row\">
                         <label for=\"trip-ending-date\" class=\"col-sm-2 col-form-label\">Ending Date</label>
                         <div class=\"col-sm-10\">
-                            <input type=\"date\" class=\"form-control\" id=\"trip-ending-date\" placeholder=\"Select Trip Ending Date\" required>
+                            <input type=\"date\" class=\"form-control\" id=\"trip-ending-date\" placeholder=\"Select Trip Ending Date\" required data-date-format=\"DD MMMM YYYY\" value=\"2018-08-09\" name=\"trip-ending-date\">
                         </div>
                     </div>
                     <button type=\"submit\" class=\"btn btn-primary pull-right\">Add Trip</button>
@@ -142,10 +167,9 @@ if (isset($_SESSION["username"])) {
 </body>
 </html>";
 
-   // echo "<h2> Welcome back : " . $_SESSION["username"] . "</h2>";
-   // echo "<a href=$fileName>Log-out</a>";
+    // echo "<h2> Welcome back : " . $_SESSION["username"] . "</h2>";
+    // echo "<a href=$fileName>Log-out</a>";
 
 } else {
     header("Location: ./signin.php?flag=loginfirst");
 }
-

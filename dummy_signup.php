@@ -43,9 +43,9 @@ if (isset($_POST['reg_user'])) {
         $query = "INSERT INTO trip_user (u_name, u_email, u_mobile, u_password, u_status) 
   			  VALUES('$username', '$email', '$mobile', '$password', '$status')";
         mysqli_query($connection, $query);
-        $_SESSION['username'] = $username;
+        $_SESSION['username'] = $email;
         $_SESSION['success'] = "You are now logged in";
-        header('location: ./dashboard.php');
+        header('location: ./signin.php?loginfirst');
     }
 
 
