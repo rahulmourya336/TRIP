@@ -42,14 +42,16 @@ if ($route_flag) {
     $result = mysqli_query($connection, $user_check_query);
     $user = mysqli_fetch_assoc($result);
 
-    $sql = "select u_id from trip_user WHERE u_email = '$email'";
-
-    $sql_result = mysqli_query($connection, $sql);
-    $user = mysqli_fetch_assoc($sql_result);
-
-    $trip_creator_id = $user['u_name'];
 
     if ($user) {
+        $sql_current_user_id = "select distinct u_name from trip_user where u_email = '$email'";
+        /* Select the name of user from [trip_user] table */
+       /* $sql = "select distinct u_name from trip_user INNER JOIN trip_list where trip_user.u_id = 29;";*/
+
+        $sql_result = mysqli_query($connection, $sql_current_user_id);
+        $user = mysqli_fetch_array($sql_result);
+
+        $trip_creator_id = $user['u_name'];
         session_start();
         $_SESSION['username'] = $email;
         $_SESSION['current_user'] = $trip_creator_id;

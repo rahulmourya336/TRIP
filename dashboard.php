@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by IntelliJ IDEA.
  * User: RadioactiveScript
@@ -6,176 +7,85 @@
  * Time: 11:24 AM
  */
 
+$user = $_SESSION['current_user'];
 $fileName = "logout.php";
-session_start();
 
 if (isset($_SESSION["username"])) {
-    echo "<!DOCTYPE html>
-<html lang=\"en\">
-<head>
-    <meta charset=\"UTF-8\">
-    <title>.: TRIPP | Dashboard :.</title>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
-    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css\"
-          crossorigin=\"anonymous\">
-    <script src=\"https://code.jquery.com/jquery-3.1.1.slim.min.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js\"
-            crossorigin=\"anonymous\"></script>
+    include("connection.php");
+    $username_ = $_SESSION["current_user"];
 
-    <link rel='stylesheet prefetch'
-          href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-          <script>
-  window.onload = function () {
-    $('trip_status').hide()
-    var dateControl = document.querySelector('input[type=\"date\"]');
-    dateControl.value = '2017-06-01';
-    
-    one = window.location.href
-    status_success = one.search('success')
-    status_failed = one.search('error')
-    
-    if (status_success != -1) {
-      document.getElementById(\"trip_status\").classList.add(\"alert-success\");
-      document.getElementById(\"trip_status\").innerHTML += \"Trip added successful\"; 
-     
-    }
-    else if(status_failed != -1) {
-      document.getElementById(\"trip_status\").classList.add(\"alert-danger\");
-      document.getElementById(\"trip_status\").innerHTML += \"Error while adding\";
-    }
-    else{
-     $('#trip_status').hide(); 
-    }
-    
-  }
-</script>
-          
-    <style>
-        #addTrip {
-            background-color: steelblue;
-            width: 75%;
-            color: #333333;
-            height: 150px;
-            margin: 0 auto;
-            overflow: hidden;
-            padding: 10px 0;
-            align-items: center;
-            justify-content: space-around;
-            display: flex;
-            float: none;
-        }
-    </style>
-</head>
-<body>
-<nav class=\"navbar navbar-toggleable-md navbar-light bg-faded\" style=\"background-color: #E1E1E1;\">
-    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\"
-            data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\"
-            aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-    </button>
-    <a class=\"navbar-brand\" href=\"#\">TRIPP.</a>
-    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+    /* Select the list of trips created */
+    $select_list_query = "select * from trip_list";
+    $result = mysqli_query($connection, $select_list_query);
+    $index = mysqli_fetch_assoc($result);    // Trip details
 
-        <ul class=\"navbar-nav mr-auto \">
-            <li class=\"nav-item active\">
-                <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
-            </li>
-            <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"#\">expense</a>
-            </li>
-            <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"#\">contact</a>
-            </li>
-        </ul>
-        <ul class=\"navbar-nav navbar-right\">
-            <li class=\"nav-item\">
-            <?php echo \" $_SESSION[current_user]\" ?>
-                <a class=\"nav-link \" href=\"logout.php\">logout</a>
-            </li>
-        </ul>
+    $trip_name = $index['t_name'];
+    $trip_url = $index['t_url'];
+    $trip_start_date = $index['t_start_date'];
+    $trip_end_date = $index['t_end_date'];
+    $trip_creator_id = $index['t_creator_id'];
 
-    </div>
-</nav>
+    /* Get total trip count */
+    $total_trip_count_query = "select count(*) as count from trip_list";
+    $trip_count_query_result = mysqli_query($connection, $total_trip_count_query);
+    $trip_count = mysqli_fetch_assoc($trip_count_query_result);
+    $trip_count = $trip_count["count"];         // Got the total trip count
 
-<div class=\"alert alert-dismissible fade show\" role=\"alert\" id='trip_status'>
-  <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
-    <span aria-hidden=\"true\">&times;</span>
-  </button>
-</div>
+    include("dashboard_ui.html");
 
-<div id=\"addTrip\">
-    <div class=\"col-md-2\">
-        <!-- Trigger the modal with a button -->
-        <button type=\"button\" class=\"btn btn-info btn-lg\" data-toggle=\"modal\" data-target=\"#myModal\">Add Trip</button>
-    </div>
-</div>
 
-<div class=\"card\" style=\"width: 18rem;\">
-    <img class=\"card-img-top\" src=\"\" alt=\"\">
-    <div class=\"card-body\">
-    </div>
-</div>
+    $sql = "SELECT * FROM trip_list";
+    echo "<div class='row col-12'>";
+    echo "<div class='col-2'>";
+    echo "<div class=\"card-group\">";
+    if ($result = mysqli_query($connection, $sql)) {
+        if (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {
+                $trip_name = $row['t_name'];
+                $trip_url = $row['t_url'];
+                $trip_start_date = $row['t_start_date'];
+                $trip_end_date = $row['t_end_date'];
+                $trip_creator_id = $row['t_creator_id'];
+                /*
+                 * Fetch name based upon t_creator_id
+                 * */
+                $sql_trip_creator_name = "select distinct u_name from trip_user INNER JOIN trip_list where trip_user.u_id = '$trip_creator_id';";
 
-<!-- Modal -->
-<div id=\"myModal\" class=\"modal fade \" role=\"dialog\">
-    <div class=\"modal-dialog modal-lg\">
+                $sql_result = mysqli_query($connection, $sql_trip_creator_name);
+                $user = mysqli_fetch_array($sql_result);
 
-        <!-- Modal content-->
-        <div class=\"modal-content\">
-            <div class=\"modal-header\">
-                <h4 class=\"modal-title\">Add Trip Information</h4>
-                <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>
+                $trip_creator_name = $user['u_name'];
 
-            </div>
-            <div class=\"modal-body\">
-                <!--Form Start-->
-                <form action=\"add_trip.php\" method=\"post\">
-                    <div class=\"form-group row\">
-                        <label for=\"trip-name\" class=\"col-sm-2 col-form-label\">Trip Name</label>
-                        <div class=\"col-sm-10\">
-                            <input type=\"text\" class=\"form-control\" id=\"trip-name\" placeholder=\"St. Lucia.\" required autofocus name=\"trip-name\"/>
-                        </div>
-                    </div>
-                    <div class=\"form-group row\">
-                        <label for=\"trip-url\" class=\"col-sm-2 col-form-label\">Trip URL</label>
-                        <div class=\"col-sm-10\">
-                            <input type=\"url\" class=\"form-control\" id=\"trip-url\" placeholder=\"http://someurl.com\" required name=\"trip-url\">
-                        </div>
-                    </div>
-                    <div class=\"form-group row\">
-                        <label for=\"trip-starting-date\" class=\"col-sm-2 col-form-label\">Starting Date</label>
-                        <div class=\"col-sm-10\">
-                            <input type=\"date\" class=\"form-control\" id=\"trip-starting-date\" placeholder=\"Select Trip Starting Date\" required data-date-format=\"YYYY MM DD\" value=\"2018-08-09\" name=\"trip-starting-date\">
-                        </div>
-                    </div>
-                    <div class=\"form-group row\">
-                        <label for=\"trip-ending-date\" class=\"col-sm-2 col-form-label\">Ending Date</label>
-                        <div class=\"col-sm-10\">
-                            <input type=\"date\" class=\"form-control\" id=\"trip-ending-date\" placeholder=\"Select Trip Ending Date\" required data-date-format=\"DD MMMM YYYY\" value=\"2018-08-09\" name=\"trip-ending-date\">
-                        </div>
-                    </div>
-                    <button type=\"submit\" class=\"btn btn-primary pull-right\">Add Trip</button>
 
-                </form>
-                <!--Form End-->
-            </div>
-            <div class=\"modal-footer\">
-                <button type=\"button\" class=\"btn btn-link\" data-dismiss=\"modal\">Close</button>
-            </div>
+                echo " <div class=\"card\">
+                ";
+                echo "
+                 
+        <img class=\"card-img-top img-fluid \" src=\"$trip_url\" alt=\"$trip_name\" id='trip_image'>
+        <div class=\"card-body\">
+            <h5 class=\"card-title\">$trip_name</h5>
+            <p>
+                Starting date: $trip_start_date</p> 
+                <p>Ending date:  $trip_end_date
+            </p>
         </div>
+        <div class=\"card-footer\">
+            <small class=\"text-muted\">Trip created by: $trip_creator_name : $trip_creator_id </small>
+        </div>";
+                echo "</div><!-- End of card-group -->
+            ";
+            }
 
-    </div>
-</div>
-
-
-</body>
-</html>";
-
-    // echo "<h2> Welcome back : " . $_SESSION["username"] . "</h2>";
-    // echo "<a href=$fileName>Log-out</a>";
+            // Free result set
+            mysqli_free_result($result);
+        }
+    }
+    echo "
+</div> <!-- End of card group -->
+</div> <!-- end of Col-md-5 -->
+</div> <!-- End of container-->
+           
+";
 
 } else {
     header("Location: ./signin.php?flag=loginfirst");

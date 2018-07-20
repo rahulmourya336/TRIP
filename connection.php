@@ -4,10 +4,10 @@
 @$connection = mysqli_connect('localhost', 'root', '', 'trip');
 
 if($connection){
-	echo "<div class='circle__status-sucess blink_me'></div> ";
+	//echo "<div class='circle__status-sucess blink_me'></div> ";
 }
 else{
-	echo "<h2> Offline </h2> <div class='circle__status-error blink_me'></div>";
+	//echo "<h2> Offline </h2> <div class='circle__status-error blink_me'></div>";
 }
 
 ?>
