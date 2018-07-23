@@ -44,17 +44,26 @@ if ($route_flag) {
 
 
     if ($user) {
-        $sql_current_user_id = "select distinct u_name from trip_user where u_email = '$email'";
+        $sql_current_user_name = "select distinct u_name from trip_user where u_email = '$email'";
+        $sql_current_user_id = "select distinct u_id from trip_user where u_email = '$email'";
+
         /* Select the name of user from [trip_user] table */
        /* $sql = "select distinct u_name from trip_user INNER JOIN trip_list where trip_user.u_id = 29;";*/
 
-        $sql_result = mysqli_query($connection, $sql_current_user_id);
-        $user = mysqli_fetch_array($sql_result);
+        $sql_result = mysqli_query($connection, $sql_current_user_name);
+        $sql_result_id = mysqli_query($connection, $sql_current_user_id);
 
-        $trip_creator_id = $user['u_name'];
+        $user = mysqli_fetch_array($sql_result);
+        $u_id = mysqli_fetch_array($sql_result_id);
+
+        $trip_creator_name = $user['u_name'];
+        $trip_creator_id = $u_id['u_id'];
+
         session_start();
         $_SESSION['username'] = $email;
-        $_SESSION['current_user'] = $trip_creator_id;
+        $_SESSION['current_user'] = $trip_creator_name;
+        $_SESSION['current_user_id'] = $trip_creator_id;
+
         header("Location:./dashboard.php");
     } else {
         header("Location: signin.php?invalid=true");

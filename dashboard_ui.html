@@ -24,6 +24,9 @@
         one = window.location.href
         status_success = one.search('success')
         status_failed = one.search('error')
+        trip_remove_success = one.search('trip_remove=STATUS_OK')
+        trip_remove_error = one.search('trip_remove=STATUS_ERRO')
+        trip_remove_admin_error = one.search('trip_remove=STATUS_NOT_ADMIN')
 
         if (status_success != -1) {
           document.getElementById('trip_status').classList.add('alert-success')
@@ -33,6 +36,18 @@
         else if (status_failed != -1) {
           document.getElementById('trip_status').classList.add('alert-danger')
           document.getElementById('trip_status').innerHTML += 'Error while adding'
+        }
+        else if (trip_remove_success != -1) {
+          document.getElementById('alert_message_content').classList.add('text-success')
+          document.getElementById('alert_message_content').innerHTML += 'Trip removed successfully'
+        }
+        else if (trip_remove_error != -1) {
+          document.getElementById('alert_message').classList.add('text-danger')
+          document.getElementById('alert_message_content').innerHTML += 'Error while removing'
+        }
+        else if (trip_remove_admin_error != -1) {
+          document.getElementById('alert_message_content').classList.add('text-danger')
+          document.getElementById('alert_message_content').innerHTML += 'Only creator can remove the trip(s)'
         }
         else {
           $('#trip_status').hide()
@@ -55,7 +70,8 @@
             display: flex;
             float: none;
         }
-        #trip_image{
+
+        #trip_image {
             height: 150px;
             width: 300px;
         }
@@ -160,3 +176,24 @@
 
     </div>
 </div>
+
+<div class="modal fade" id="alert_message">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4 id="alert_message_content">Welcome back!</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  $('#alert_message').modal('show')
+
+  setTimeout(function () {
+    $('#alert_message').modal('hide')
+  }, 3000)
+</script>

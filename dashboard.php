@@ -74,13 +74,15 @@ if (isset($_SESSION["username"])) {
         <div class=\"card-footer\">
             <small class=\"text-muted\">Trip created by: $trip_creator_name : $trip_creator_id </small>
         </div>
-        <div class=\"dropdown\">
+        <div class=\"dropup\">
     <button class=\"btn btn-info dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\">Action
             <span class=\"glyphicon glyphicon-pencil\"></span>
         <span class=\"caret\"></span></button>
     <ul class=\"dropdown-menu\">
-        <li><a href=\"edit.php?edit=$trip_id\" class='text-primary p-2' name='edit'>Edit</a></li>
-        <li><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete'>Delete</a></li>
+        <li class=\"dropdown-item\"><a href=\"edit.php?edit=$trip_id\" class='text-primary p-2' name='edit'>Edit</a></li>
+         <div class=\"dropdown-divider\"></div>
+  <a class=\"dropdown-item\" href=\"#\"></a>
+        <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete'>Delete</a></li>
     </ul>
 </div>";
                 echo "</div><!-- End of card-group -->
