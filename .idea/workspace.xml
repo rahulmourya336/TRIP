@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3cb6c2-a2d0-4c22-8b1d-12752f5fdc39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard_ui.html" afterPath="$PROJECT_DIR$/dashboard_ui.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emmet.html" afterPath="$PROJECT_DIR$/emmet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remove.php" afterPath="$PROJECT_DIR$/remove.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.php" afterPath="$PROJECT_DIR$/script.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,13 +45,12 @@
           <file leaf-file-name="dashboard_ui.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dashboard_ui.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="186" column="60" lean-forward="false" selection-start-line="186" selection-start-column="60" selection-end-line="186" selection-end-column="60" />
+                <state relative-caret-position="447">
+                  <caret line="188" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
                   <folding>
                     <element signature="n#style#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#4729#4736#1" expanded="true" />
-                    <element signature="e#5396#5403#1" expanded="true" />
-                    <element signature="e#8120#8127#1" expanded="true" />
+                    <element signature="e#4726#4733#1" expanded="true" />
+                    <element signature="e#5393#5400#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -468,7 +462,7 @@
       <workItem from="1531891540753" duration="16306000" />
       <workItem from="1531922430497" duration="10272000" />
       <workItem from="1531998159930" duration="27281000" />
-      <workItem from="1532320436376" duration="15024000" />
+      <workItem from="1532320436376" duration="16642000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Minor --fix -0&quot;">
       <created>1531461729288</created>
@@ -512,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532324678264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Dashboard design -Minor Update --Delete Module &quot;">
+      <created>1532338715816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532338715816</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109796000" />
+    <option name="totallyTimeSpent" value="111414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +574,8 @@
     <MESSAGE value="&quot;Dashboard design -Join Update&quot;" />
     <MESSAGE value="&quot;Dashboard design -SQL Select update&quot;" />
     <MESSAGE value="&quot;Dashboard design -Minor Update&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dashboard design -Minor Update&quot;" />
+    <MESSAGE value="&quot;Dashboard design -Minor Update --Delete Module &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dashboard design -Minor Update --Delete Module &quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1140,13 +1142,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_ui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="186" column="60" lean-forward="false" selection-start-line="186" selection-start-column="60" selection-end-line="186" selection-end-column="60" />
+        <state relative-caret-position="447">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4729#4736#1" expanded="true" />
-            <element signature="e#5396#5403#1" expanded="true" />
-            <element signature="e#8120#8127#1" expanded="true" />
+            <element signature="e#4726#4733#1" expanded="true" />
+            <element signature="e#5393#5400#1" expanded="true" />
           </folding>
         </state>
       </provider>

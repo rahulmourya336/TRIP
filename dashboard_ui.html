@@ -39,15 +39,15 @@
         }
         else if (trip_remove_success != -1) {
           document.getElementById('alert_message_content').classList.add('text-success')
-          document.getElementById('alert_message_content').innerHTML += 'Trip removed successfully'
+          document.getElementById('alert_message_content').innerHTML = 'Trip removed successfully'
         }
         else if (trip_remove_error != -1) {
           document.getElementById('alert_message').classList.add('text-danger')
-          document.getElementById('alert_message_content').innerHTML += 'Error while removing'
+          document.getElementById('alert_message_content').innerHTML = 'Error while removing'
         }
         else if (trip_remove_admin_error != -1) {
           document.getElementById('alert_message_content').classList.add('text-danger')
-          document.getElementById('alert_message_content').innerHTML += 'Only creator can remove the trip(s)'
+          document.getElementById('alert_message_content').innerHTML = 'Only creator can remove the trip(s)'
         }
         else {
           $('#trip_status').hide()
@@ -177,14 +177,11 @@
     </div>
 </div>
 
-<div class="modal fade" id="alert_message">
+<div class="modal fade hide" id="alert_message">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            </div>
             <div class="modal-body">
-                <h4 id="alert_message_content">Welcome back!</h4>
+                <h4 id="alert_message_content">Loading . . .</h4>
             </div>
         </div>
     </div>
