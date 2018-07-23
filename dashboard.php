@@ -35,12 +35,14 @@ if (isset($_SESSION["username"])) {
 
 
     $sql = "SELECT * FROM trip_list";
-    echo "<div class='row col-12'>";
-    echo "<div class='col-2'>";
+    echo "<div class='container'>";
+    echo "<div class='row'>";
+    echo "<div class='col-sm-5'>";
     echo "<div class=\"card-group\">";
     if ($result = mysqli_query($connection, $sql)) {
         if (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_array($result)) {
+                $trip_id = $row['t_id'];
                 $trip_name = $row['t_name'];
                 $trip_url = $row['t_url'];
                 $trip_start_date = $row['t_start_date'];
@@ -57,7 +59,7 @@ if (isset($_SESSION["username"])) {
                 $trip_creator_name = $user['u_name'];
 
 
-                echo " <div class=\"card\">
+                echo " <div class=\"card \">
                 ";
                 echo "
                  
@@ -71,7 +73,16 @@ if (isset($_SESSION["username"])) {
         </div>
         <div class=\"card-footer\">
             <small class=\"text-muted\">Trip created by: $trip_creator_name : $trip_creator_id </small>
-        </div>";
+        </div>
+        <div class=\"dropdown\">
+    <button class=\"btn btn-info dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\">Action
+            <span class=\"glyphicon glyphicon-pencil\"></span>
+        <span class=\"caret\"></span></button>
+    <ul class=\"dropdown-menu\">
+        <li><a href=\"edit.php?edit=$trip_id\" class='text-primary p-2' name='edit'>Edit</a></li>
+        <li><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete'>Delete</a></li>
+    </ul>
+</div>";
                 echo "</div><!-- End of card-group -->
             ";
             }
@@ -81,9 +92,11 @@ if (isset($_SESSION["username"])) {
         }
     }
     echo "
+
 </div> <!-- End of card group -->
-</div> <!-- end of Col-md-5 -->
+</div> <!-- End of Col-md-5 -->
 </div> <!-- End of container-->
+</div><!--- End of main container -->
            
 ";
 
