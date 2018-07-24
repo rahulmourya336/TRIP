@@ -55,13 +55,35 @@
       }
 
       function populate (trip_id) {
-        var trip_card = document.getElementById(trip_id)
-        query = document.querySelector("img#trip_image")
-        trip_name = query.getAttribute("alt")
-        trip_url  = query.getAttribute("src")
-        trip_start_date ;
-        trip_end_date ;
+        dummy_trip_id = '#_' + trip_id
+        date_query = document.querySelector(dummy_trip_id)
+        query = document.querySelector(dummy_trip_id).querySelector('img#trip_image')
+        trip_name = query.getAttribute('alt')
+        trip_url = query.getAttribute('src')
+        trip_start_date = date_query.querySelector('#start_date').innerText
+        trip_end_date = date_query.querySelector('#end_date').innerText
 
+        start_date = trip_start_date.slice(trip_start_date.search(':') + 1)
+        start_date = start_date.trim()
+
+        end_date = trip_end_date.slice(trip_end_date.search(':') + 1)
+        end_date = end_date.trim()
+
+        console.log(trip_name, trip_url, start_date, end_date)
+
+        /* Populating the data */
+        document.getElementById('trip-name').value = trip_name
+        document.getElementById('trip-url').value = trip_url
+        document.getElementById('trip-starting-date').value = start_date
+        document.getElementById('trip-ending-date').value= end_date
+        /* Change submit button color*/
+        document.getElementById('add-trip-btn').classList.add('btn-success')
+        document.getElementById('add-trip-btn').innerHTML = 'Update Trip'
+      }
+
+      function ResetDefault () {
+        document.getElementById('add-trip-btn').classList.add('btn-primary')
+        document.getElementById('add-trip-btn').innerHTML = 'Add trip'
       }
     </script>
 
@@ -173,7 +195,7 @@
                                    value="2018-08-09" name="trip-ending-date" value="<?= @$t_end_date ?>">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary pull-right">Add Trip</button>
+                    <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn">Add Trip</button>
 
                 </form>
                 <!--Form End-->

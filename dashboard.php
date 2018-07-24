@@ -12,6 +12,11 @@ $user = $_SESSION['current_user'];
 $fileName = "logout.php";
 
 if (isset($_SESSION["username"])) {
+    echo "
+    <script>
+   
+    </script>
+    ";
     include("connection.php");
     $username_ = $_SESSION["current_user"];
 
@@ -67,9 +72,9 @@ if (isset($_SESSION["username"])) {
         <img class=\"card-img-top img-fluid \" src=\"$trip_url\" alt=\"$trip_name\" id='trip_image'>
         <div class=\"card-body\">
             <h5 class=\"card-title\">$trip_name</h5>
-            <p>
+            <p id='start_date'>
                 Starting date: $trip_start_date</p> 
-                <p>Ending date:  $trip_end_date
+                <p id='end_date'>Ending date:  $trip_end_date
             </p>
         </div>
         <div class=\"card-footer\">
