@@ -7,6 +7,7 @@ session_start();
  * Time: 11:24 AM
  */
 
+
 $user = $_SESSION['current_user'];
 $fileName = "logout.php";
 
@@ -59,7 +60,7 @@ if (isset($_SESSION["username"])) {
                 $trip_creator_name = $user['u_name'];
 
 
-                echo " <div class=\"card \">
+                echo " <div class=\"card \" id='_$trip_id'>
                 ";
                 echo "
                  
@@ -79,14 +80,14 @@ if (isset($_SESSION["username"])) {
             <span class=\"glyphicon glyphicon-pencil\"></span>
         <span class=\"caret\"></span></button>
     <ul class=\"dropdown-menu\">
-        <li class=\"dropdown-item\"><a href=\"edit.php?edit=$trip_id\" class='text-primary p-2' name='edit'>Edit</a></li>
+        <li class=\"dropdown-item\"><!--<a href=\"#?edit=$trip_id\" class='text-primary p-2' name='edit' id='EDIT_TRIP' >Edit</a>-->
+        <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='populate($trip_id)'>Edit Trip</button></li>
          <div class=\"dropdown-divider\"></div>
   <a class=\"dropdown-item\" href=\"#\"></a>
         <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete'>Delete</a></li>
     </ul>
 </div>";
-                echo "</div><!-- End of card-group -->
-            ";
+                echo "</div><!-- End of card-group -->";
             }
 
             // Free result set

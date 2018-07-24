@@ -52,6 +52,15 @@
         else {
           $('#trip_status').hide()
         }
+      }
+
+      function populate (trip_id) {
+        var trip_card = document.getElementById(trip_id)
+        query = document.querySelector("img#trip_image")
+        trip_name = query.getAttribute("alt")
+        trip_url  = query.getAttribute("src")
+        trip_start_date ;
+        trip_end_date ;
 
       }
     </script>
@@ -138,14 +147,14 @@
                         <label for="trip-name" class="col-sm-2 col-form-label">Trip Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="trip-name" placeholder="St. Lucia." required
-                                   autofocus name="trip-name"/>
+                                   autofocus name="trip-name" value="<?= @$t_name ?>"/>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="trip-url" class="col-sm-2 col-form-label">Trip URL</label>
                         <div class="col-sm-10">
                             <input type="url" class="form-control" id="trip-url" placeholder="http://someurl.com"
-                                   required name="trip-url">
+                                   required name="trip-url" value="<?= @$t_url ?>">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -153,7 +162,7 @@
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-starting-date"
                                    placeholder="Select Trip Starting Date" required data-date-format="YYYY MM DD"
-                                   value="2018-08-09" name="trip-starting-date">
+                                   value="2018-08-09" name="trip-starting-date" value="<?= @$t_start_date ?>">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -161,7 +170,7 @@
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-ending-date"
                                    placeholder="Select Trip Ending Date" required data-date-format="DD MMMM YYYY"
-                                   value="2018-08-09" name="trip-ending-date">
+                                   value="2018-08-09" name="trip-ending-date" value="<?= @$t_end_date ?>">
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary pull-right">Add Trip</button>
