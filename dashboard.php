@@ -80,18 +80,23 @@ if (isset($_SESSION["username"])) {
         <div class=\"card-footer\">
             <small class=\"text-muted\">Trip created by: $trip_creator_name : $trip_creator_id </small>
         </div>
-        <div class=\"dropup\">
+        <div class=\"dropup\" id='trip-action-button'>
     <button class=\"btn btn-info dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\">Action
             <span class=\"glyphicon glyphicon-pencil\"></span>
         <span class=\"caret\"></span></button>
-    <ul class=\"dropdown-menu\">
-        <li class=\"dropdown-item\"><!--<a href=\"#?edit=$trip_id\" class='text-primary p-2' name='edit' id='EDIT_TRIP' >Edit</a>-->
-        <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='populate($trip_id)'>Edit Trip</button></li>
+    <ul class=\"dropdown-menu\" >
+        <li class=\"dropdown-item\">
+        <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='triggerUpdateTrip();populate($trip_id);' id='trip-edit-link'>Edit Trip</button></li>
          <div class=\"dropdown-divider\"></div>
   <a class=\"dropdown-item\" href=\"#\"></a>
-        <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete'>Delete</a></li>
+        <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete' id='trip-remove-link'>Delete</a></li>
     </ul>
 </div>";
+                $current_user_id = $_SESSION['current_user_id'];
+                if ($current_user_id != $trip_creator_id) {
+                    echo "
+                    <script>ToggleLink(true,$trip_id)</script>";
+                }
                 echo "</div><!-- End of card-group -->";
             }
 
