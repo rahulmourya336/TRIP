@@ -86,7 +86,7 @@ if (isset($_SESSION["username"])) {
         <span class=\"caret\"></span></button>
     <ul class=\"dropdown-menu\" >
         <li class=\"dropdown-item\">
-        <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='triggerUpdateTrip();populate($trip_id);' id='trip-edit-link'>Edit Trip</button></li>
+        <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='triggerUpdateTrip($trip_id);populate($trip_id);' id='trip-edit-link'>Edit Trip</button></li>
          <div class=\"dropdown-divider\"></div>
   <a class=\"dropdown-item\" href=\"#\"></a>
         <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete' id='trip-remove-link'>Delete</a></li>

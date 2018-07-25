@@ -78,7 +78,7 @@
     <div class="col-md-2">
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
-                onclick="clearForm();triggerAddTrip()">
+                onclick="clearForm()triggerAddTrip()">
             Add Trip
         </button>
     </div>
@@ -177,6 +177,8 @@
     trip_remove_success = one.search('trip_remove=STATUS_OK')
     trip_remove_error = one.search('trip_remove=STATUS_ERRO')
     trip_remove_admin_error = one.search('trip_remove=STATUS_NOT_ADMIN')
+    trip_update_success = one.search('flag=UPDATE_DONE')
+    trip_update_error = one.search('flag=UPDATE_ERROR')
 
     if (status_success != -1) {
       document.getElementById('alert_message_content').classList.add('text-success')
@@ -201,6 +203,14 @@
     else if (trip_remove_admin_error != -1) {
       document.getElementById('alert_message_content').classList.add('text-danger')
       document.getElementById('alert_message_content').innerHTML = 'Only creator can remove the trip(s)'
+    }
+    else if (trip_update_success != -1) {
+      document.getElementById('alert_message_content').classList.add('text-success')
+      document.getElementById('alert_message_content').innerHTML = 'Trip Updated'
+    }
+    else if (trip_update_error != -1) {
+      document.getElementById('alert_message_content').classList.add('text-danger')
+      document.getElementById('alert_message_content').innerHTML = 'Unable to update trip'
     }
     else {
       $('#trip_status').hide()
@@ -240,20 +250,21 @@
     else {
       document.getElementById('add-trip-btn').classList.add('visible')
     }*/
-    document.getElementById('add-trip-btn').style.display = "block";
-    document.getElementById('update-trip-btn').style.display = "none";
-    console.log("In trigger add trip()")
+    document.getElementById('add-trip-btn').style.display = 'block'
+    document.getElementById('update-trip-btn').style.display = 'none'
+    console.log('In trigger add trip()')
   }
 
-  function triggerUpdateTrip () {
-    document.getElementById('trip_form').setAttribute('action', './update_trip.php')
-   /* if (document.getElementById('update-trip-btn').classList.hasOwnProperty('invisible')) {
-      document.getElementById('update-trip-btn').classList.add('visible')
-      document.getElementById('update-trip-btn').classList.remove('invisible')
-    }*/
-    document.getElementById('add-trip-btn').style.display = "none";
-    document.getElementById('update-trip-btn').style.display = "block";
-    console.log("In trigger remove trip()")
+  function triggerUpdateTrip (trip_id) {
+    document.getElementById('trip_form').setAttribute('action', './update_trip.php?id=' + trip_id)
+
+    /* if (document.getElementById('update-trip-btn').classList.hasOwnProperty('invisible')) {
+       document.getElementById('update-trip-btn').classList.add('visible')
+       document.getElementById('update-trip-btn').classList.remove('invisible')
+     }*/
+    document.getElementById('add-trip-btn').style.display = 'none'
+    document.getElementById('update-trip-btn').style.display = 'block'
+    console.log('In trigger remove trip()')
   }
 
   function clearForm () {
