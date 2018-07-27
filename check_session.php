@@ -9,3 +9,6 @@
 if(!isset($_SESSION["username"])){
     header("Location: ./signin.php?flag=loginfirst");
 }
+else{
+    header("Location: ./dashboard.php");
+}

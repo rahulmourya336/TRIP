@@ -5,17 +5,17 @@
     <title>.: TRIPP | Dashboard :.</title>
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.x-git.js"></script>
 
-    <link rel='stylesheet prefetch'
-          href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
     <style>
         #addTrip {
@@ -36,7 +36,9 @@
             height: 150px;
             width: 300px;
         }
-
+        label.checkbox{
+            width: 400px !important;
+        }
     </style>
 </head>
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: #E1E1E1;">
@@ -78,7 +80,7 @@
     <div class="col-md-2">
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
-                onclick="clearForm()triggerAddTrip()">
+                onclick="clearForm();triggerAddTrip()">
             Add Trip
         </button>
     </div>
@@ -102,22 +104,24 @@
                         <label for="trip-name" class="col-sm-2 col-form-label">Trip Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="trip-name" placeholder="St. Lucia." required
-                                   autofocus name="trip-name" value="<?= @$t_name ?>"/>
+                                   autofocus name="trip-name"/>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="trip-url" class="col-sm-2 col-form-label">Trip URL</label>
                         <div class="col-sm-10">
                             <input type="url" class="form-control" id="trip-url" placeholder="http://someurl.com"
-                                   required name="trip-url" value="<?= @$t_url ?>">
+                                   required name="trip-url" oninput="showImages()">
+                            <div id="unsplash_placeholder"></div>
                         </div>
+
                     </div>
                     <div class="form-group row">
                         <label for="trip-starting-date" class="col-sm-2 col-form-label">Starting Date</label>
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-starting-date"
                                    placeholder="Select Trip Starting Date" required data-date-format="YYYY MM DD"
-                                   value="2018-08-09" name="trip-starting-date" value="<?= @$t_start_date ?>">
+                                   value="2018-08-09" name="trip-starting-date">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -125,8 +129,48 @@
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-ending-date"
                                    placeholder="Select Trip Ending Date" required data-date-format="DD MMMM YYYY"
-                                   value="2018-08-09" name="trip-ending-date" value="<?= @$t_end_date ?>">
+                                   value="2018-08-09" name="trip-ending-date">
                         </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="trip-member" class="col-sm-2 col-form-label">Select Members</label>
+                        <div class="col-md-10">
+                            <select id="multiple-checkboxes" multiple="multiple" class=" lg_select_text_box">
+
+                                <!-- PHP Code to SPIT data here -->
+                                <?php
+                                /* Combine two array and make associative array */
+                                function Combine($array1, $array2) {
+                                    if(count($array1) == count($array2)) {
+                                        $assArray = array();
+                                        for($i=0;$i<count($array1);$i++) {
+                                            $assArray[$array1[$i]] = $array2[$i];
+                                        }
+                                        return $assArray;
+                                    }
+                                }
+//                                TODO : Spit Sorted name to dropdown list
+
+                                $current_user_id = $_SESSION['current_user_id'];
+                                $select_query = "select u_id, u_name from trip_user WHERE u_id != '$current_user_id'";
+                                if ($result = mysqli_query($connection, $select_query)) {
+                                    if (mysqli_num_rows($result) > 0) {
+
+                                        while ($row = mysqli_fetch_array($result)) {
+                                            $trip_id = $row['u_id'];
+                                            $trip_name = $row['u_name'];
+                                            echo "
+                                <option value='$trip_id' >$trip_name</option>
+                                ";
+                                        }
+                                    }
+                                }
+
+                                ?>
+                                <!-- End of SPIT PHP data here -->
+                            </select>
+                        </div>
+
                     </div>
                     <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn"
                             onclick="triggerAddTrip()">Add Trip
@@ -165,7 +209,12 @@
 </script>
 
 <script type="text/javascript">
+
+  $(document).ready(function () {
+    $('#multiple-checkboxes').multiselect()
+  })
   window.onload = function () {
+
     $('trip_status').hide()
 
     var dateControl = document.querySelector('input[type="date"]')
@@ -243,28 +292,24 @@
 
   function triggerAddTrip () {
     document.getElementById('trip_form').setAttribute('action', './add_trip.php')
-    /*if (document.getElementById('add-trip-btn').classList.hasOwnProperty('invisible')) {
-      document.getElementById('add-trip-btn').classList.add('visible')
-      document.getElementById('update-trip-btn').classList.add('invisible')
-    }
-    else {
-      document.getElementById('add-trip-btn').classList.add('visible')
-    }*/
     document.getElementById('add-trip-btn').style.display = 'block'
     document.getElementById('update-trip-btn').style.display = 'none'
     console.log('In trigger add trip()')
   }
 
   function triggerUpdateTrip (trip_id) {
-    document.getElementById('trip_form').setAttribute('action', './update_trip.php?id=' + trip_id)
-
-    /* if (document.getElementById('update-trip-btn').classList.hasOwnProperty('invisible')) {
-       document.getElementById('update-trip-btn').classList.add('visible')
-       document.getElementById('update-trip-btn').classList.remove('invisible')
-     }*/
+    url = './update_trip.php?id='
+    id = trip_id
+    trip_id = url.concat(id)
+    document.getElementById('trip_form').setAttribute('action', trip_id)
     document.getElementById('add-trip-btn').style.display = 'none'
     document.getElementById('update-trip-btn').style.display = 'block'
-    console.log('In trigger remove trip()')
+
+    form_action = document.querySelector('#trip_form').getAttribute('action')
+    if (form_action.search('update') != -1) {
+      a = document.querySelector('#trip_form').querySelector('#update-trip-btn')
+      a.removeAttribute('onclick')
+    }
   }
 
   function clearForm () {
@@ -279,4 +324,59 @@
       query.style.display = 'none'
     }
   }
+
+  function doubleClick (id, name) {
+    console.log('Trip id' + id + 'Trip Name' + name)
+    alert()
+  }
+
+  //  function showImages () {
+  //    var a = ''
+  //    a += document.getElementById('trip-url').value
+  //    if (a.length == 0) {
+  //    node = document.getElementById('unsplash_placeholder')
+  //      if(node.childElementCount > 0){
+  //        while (node.hasChildNodes()) {
+  //          node.removeChild(node.lastChild);
+  //      }
+  //      }
+  //    }
+  //
+  //    API_URL = 'https://api.unsplash.com/search/photos/?client_id=e52ce48ac3e7d6834829e06e94030fea3d98dc7ed671bc9bdd519c66bfdc63fa&query='
+  //    API_URL = API_URL.concat(a)
+  //
+  //    if (true) {
+  //      xmlhttp = new XMLHttpRequest()
+  //      xmlhttp.onreadystatechange = function () {
+  //        if (this.readyState == 4 && this.status == 200) {
+  //          json_reponse = this.responseText
+  //          json_reponse = JSON.parse(json_reponse)
+  //          var thumb_img = []
+  //          var json_length = json_reponse.results.length
+  //          while (json_length > 0) {
+  //            thumb_img.push(json_reponse.results[json_length - 1].urls.thumb)
+  //            json_length--
+  //          }
+  //
+  //           for (i in thumb_img){
+  //          var element = document.createElement('img')
+  //          document.getElementById('unsplash_placeholder').appendChild(element)
+  //          element.setAttribute('src', thumb_img[1])
+  //          //element.setAttribute('id', "-".concat(i))
+  //          //element.setAttribute('height', '100px')
+  //          //element.setAttribute('width', '100px')
+  //             console.log(i)
+  //          element.classList.add('img')
+  //          }
+  //          console.log(thumb_img)
+  //        }
+  //
+  //      }
+  //      xmlhttp.open('GET', API_URL, true)
+  //      xmlhttp.send()
+  //    } else {
+  //      xmlhttp = new ActiveXObject('Microsoft.XMLHTTP')
+  //    }
+  //
+  //  }
 </script>

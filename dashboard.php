@@ -1,22 +1,16 @@
 <?php
-session_start();
 /**
  * Created by IntelliJ IDEA.
  * User: RadioactiveScript
  * Date: 7/13/2018
  * Time: 11:24 AM
  */
-
+session_start();
 
 $user = $_SESSION['current_user'];
 $fileName = "logout.php";
 
 if (isset($_SESSION["username"])) {
-    echo "
-    <script>
-   
-    </script>
-    ";
     include("connection.php");
     $username_ = $_SESSION["current_user"];
 
@@ -37,14 +31,14 @@ if (isset($_SESSION["username"])) {
     $trip_count = mysqli_fetch_assoc($trip_count_query_result);
     $trip_count = $trip_count["count"];         // Got the total trip count
 
-    include("dashboard_ui.html");
+    include("dashboard_ui.php");
 
 
     $sql = "SELECT * FROM trip_list";
     echo "<div class='container'>";
-    echo "<div class='row'>";
-    echo "<div class='col-sm-5'>";
-    echo "<div class=\"card-group\">";
+    echo "<div >";
+    echo "<div class='row col-md-12'>";
+    echo "<div class=\"card-group \">";
     if ($result = mysqli_query($connection, $sql)) {
         if (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_array($result)) {
@@ -65,7 +59,7 @@ if (isset($_SESSION["username"])) {
                 $trip_creator_name = $user['u_name'];
 
 
-                echo " <div class=\"card \" id='_$trip_id'>
+                echo " <div class=\"card col-md-3\" id='_$trip_id' ondblclick='doubleClick($trip_id, $trip_name)'>
                 ";
                 echo "
                  
@@ -89,7 +83,7 @@ if (isset($_SESSION["username"])) {
         <button type=\"button\" class=\"btn btn-link\" data-toggle=\"modal\" data-target=\"#myModal\" onclick='triggerUpdateTrip($trip_id);populate($trip_id);' id='trip-edit-link'>Edit Trip</button></li>
          <div class=\"dropdown-divider\"></div>
   <a class=\"dropdown-item\" href=\"#\"></a>
-        <li class=\"dropdown-item\"><a href=\"remove.php?remove=$trip_id\" class='text-danger p-2' name='delete' id='trip-remove-link'>Delete</a></li>
+        <li class=\"dropdown-item\"><a href=\"remove_trip.php?remove=$trip_id\" class='text-danger p-2' name='delete' id='trip-remove-link'>Delete</a></li>
     </ul>
 </div>";
                 $current_user_id = $_SESSION['current_user_id'];

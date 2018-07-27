@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); include ("check_session.php");?>
 <html lang="en">
 
 <head>
@@ -101,46 +102,4 @@
 </div>
 
 </body>
-
-
-<?php
-//include("connection.php");
-//
-//if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['mobile']))
-//{
-//    @$name = $_POST['name'];
-//    @$email = $_POST['email'];
-//    @$password = $_POST['password'];
-//    @$mobile = $_POST['mobile'];
-//    @$status = 1;
-//
-//// connect to the database
-//
-//
-//// receive all input values from the form
-//    $username = mysqli_real_escape_string($connection, $name);
-//    $email = mysqli_real_escape_string($connection, $email);
-//    $password = mysqli_real_escape_string($connection, $password);
-//    $mobile = mysqli_real_escape_string($connection, $mobile);
-//    $status = mysqli_real_escape_string($connection, $status);
-//
-//    $sql = "INSERT INTO trip_user(u_name, u_email, u_password, u_mobile, u_status) VALUES('$username', '$email', '$password', '$mobile', '$status')";
-//
-//    if (mysqli_query($connection, $sql)) {
-//        header("Location:./Dashboard.php");
-//    } else {
-//        echo "<div class=\"alert alert-danger\" role=\"alert\">
-//  Error while contacting server.
-//</div>";
-//        sleep(2);
-//        header("Location: index.php");
-//    }
-//
-//
-//}
-//
-//
-//?>
-
-
 </html>
