@@ -99,7 +99,7 @@
             </div>
             <div class="modal-body">
                 <!-- Form Start -->
-                <form action="" method="post" id="trip_form">
+                <form action="" method="POST" id="trip_form">
                     <div class="form-group row">
                         <label for="trip-name" class="col-sm-2 col-form-label">Trip Name</label>
                         <div class="col-sm-10">
@@ -135,7 +135,7 @@
                     <div class="form-group row">
                         <label for="trip-member" class="col-sm-2 col-form-label">Select Members</label>
                         <div class="col-md-10">
-                            <select id="multiple-checkboxes" multiple="multiple" class=" lg_select_text_box">
+                            <select id="multiple-checkboxes" multiple="multiple" class=" lg_select_text_box" name="member[]" required>
 
                                 <!-- PHP Code to SPIT data here -->
                                 <?php
@@ -160,7 +160,7 @@
                                             $trip_id = $row['u_id'];
                                             $trip_name = $row['u_name'];
                                             echo "
-                                <option value='$trip_id' >$trip_name</option>
+                                <option value='$trip_id'>$trip_name</option>
                                 ";
                                         }
                                     }
@@ -169,14 +169,16 @@
                                 ?>
                                 <!-- End of SPIT PHP data here -->
                             </select>
+                            <div id="checkbox_error_message" class="text-danger"></div>
                         </div>
+
 
                     </div>
                     <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn"
-                            onclick="triggerAddTrip()">Add Trip
+                            onclick="checkCheckboxStatus();triggerAddTrip()" onclose="checkCheckboxStatus()">Add Trip
                     </button>
                     <button type="submit" class="btn btn-success pull-right" id="update-trip-btn"
-                            onclick="triggerUpdateTrip()">Update Trip
+                            onclick="checkCheckboxStatus();triggerUpdateTrip()" >Update Trip
                     </button>
 
                 </form>
@@ -290,6 +292,20 @@
     document.getElementById('trip-ending-date').value = end_date
   }
 
+  function checkCheckboxStatus(){
+    check_status = document.querySelector(".multiselect-selected-text").innerText
+    error_message_container = document.getElementById('checkbox_error_message')
+
+    if(check_status.search("None") !== -1){
+      error_message_container.innerHTML = "Select members";
+      return false
+    }
+    else{
+      error_message_container.innerHTML = check_status
+      return true
+    }
+  }
+
   function triggerAddTrip () {
     document.getElementById('trip_form').setAttribute('action', './add_trip.php')
     document.getElementById('add-trip-btn').style.display = 'block'
@@ -330,7 +346,7 @@
     alert()
   }
 
-  //  function showImages () {
+  function showImages () {
   //    var a = ''
   //    a += document.getElementById('trip-url').value
   //    if (a.length == 0) {
@@ -378,5 +394,5 @@
   //      xmlhttp = new ActiveXObject('Microsoft.XMLHTTP')
   //    }
   //
-  //  }
+  }
 </script>

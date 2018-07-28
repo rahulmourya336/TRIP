@@ -25,8 +25,10 @@ $trip_creator_id = $user['u_id'];
 $add_trip_query = "INSERT INTO trip_list (t_url, t_name, t_start_date, t_end_date, t_creator_id) VALUES ('$trip_url', '$trip_name', '$trip_start_date', '$trip_end_date', '$trip_creator_id')";
 
 $add_trip_result = mysqli_query($connection, $add_trip_query);
+$last_trip_id = mysqli_insert_id($connection);
 
-if ($add_trip_result) {
+include ("add_travellers.php");
+if ($add_trip_result && $sql_insert_traveller_query) {
     header("Location: ./dashboard.php?flag=success");
 } else {
     $_SESSION['trip_status'] = "error";

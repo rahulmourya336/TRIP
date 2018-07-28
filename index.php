@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php session_start(); include ("check_session.php");?>
 <html lang="en">
 
 <head>

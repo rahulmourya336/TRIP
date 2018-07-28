@@ -5,10 +5,6 @@
  * Date: 7/18/2018
  * Time: 6:03 PM
  */
-
 if(!isset($_SESSION["username"])){
     header("Location: ./signin.php?flag=loginfirst");
-}
-else{
-    header("Location: ./dashboard.php");
 }
