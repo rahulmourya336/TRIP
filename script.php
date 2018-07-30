@@ -22,8 +22,6 @@ if ($route_flag) {
     if (mysqli_query($connection, $sql)) {
         header("Location:./Dashboard.php");
     } else {
-        echo "Something went wrong";
-        sleep(2);
         header("Location: index.php");
     }
 

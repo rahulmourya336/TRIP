@@ -55,7 +55,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">expense</a>
+                <a class="nav-link" href="manage_trip.php">Expense</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">contact</a>

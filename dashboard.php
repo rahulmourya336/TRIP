@@ -59,7 +59,7 @@ if (isset($_SESSION["username"])) {
                 $trip_creator_name = $user['u_name'];
 
 
-                echo " <div class=\"card \" id='_$trip_id' ondblclick='doubleClick($trip_id, $trip_name)'>
+                echo " <div class=\"card \" id='_$trip_id'>
                 ";
                 echo "
                  
@@ -89,8 +89,11 @@ if (isset($_SESSION["username"])) {
                 $current_user_id = $_SESSION['current_user_id'];
                 if ($current_user_id != $trip_creator_id) {
                     echo "
-                    <script>ToggleLink(true,$trip_id)</script>";
+                    <script>ToggleLink(true,$trip_id);</script>";
+                } else {
+                    echo "<a href='manage_trip.php?t_id=$trip_id' ><button type=\"button\" class=\"btn btn-default btn-sm\"> Manage </button></a>";
                 }
+
                 echo "</div><!-- End of card-group -->";
             }
 
