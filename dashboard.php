@@ -59,7 +59,7 @@ if (isset($_SESSION["username"])) {
                 $trip_creator_name = $user['u_name'];
 
 
-                echo " <div class=\"card col-md-3\" id='_$trip_id' ondblclick='doubleClick($trip_id, $trip_name)'>
+                echo " <div class=\"card \" id='_$trip_id' ondblclick='doubleClick($trip_id, $trip_name)'>
                 ";
                 echo "
                  

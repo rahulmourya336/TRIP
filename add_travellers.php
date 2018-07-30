@@ -23,6 +23,7 @@ if (!empty($_POST['member'])) {
 // Get last trip_id from database
 $sql_insert_traveller_query = "";
 echo "Last trip id" . $last_trip_id;
+$_SESSION['last_trip_id'] = $last_trip_id;
 
 foreach ($member_list as $members) {
     $sql_insert_traveller_query = "INSERT INTO trip_traveller(t_id, u_id) VALUES ('$last_trip_id', '$members')";

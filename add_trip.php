@@ -27,7 +27,8 @@ $add_trip_query = "INSERT INTO trip_list (t_url, t_name, t_start_date, t_end_dat
 $add_trip_result = mysqli_query($connection, $add_trip_query);
 $last_trip_id = mysqli_insert_id($connection);
 
-include ("add_travellers.php");
+include("add_travellers.php");
+
 if ($add_trip_result && $sql_insert_traveller_query) {
     header("Location: ./dashboard.php?flag=success");
 } else {

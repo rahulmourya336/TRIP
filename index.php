@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>.: TRIP | Welcome login, signup :.</title>
@@ -83,7 +82,7 @@
             <div class="form-group">
                 <label for="mobile">Contact Number</label>
                 <input class="form-control" type="number" name="mobile" id="mobile" placeholder="+91 XXXXXXXXXX"
-                       min="10"
+                       pattern="/(7|8|9)\d{9}/"
                        required/>
             </div>
             <div class="m-t-lg">

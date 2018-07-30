@@ -79,7 +79,7 @@
 <div id="addTrip">
     <div class="col-md-2">
         <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
+        <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#myModal"
                 onclick="clearForm();triggerAddTrip()">
             Add Trip
         </button>
@@ -132,9 +132,9 @@
                                    value="2018-08-09" name="trip-ending-date">
                         </div>
                     </div>
-                    <div class="form-group row">
+                    <div class="form-group row" id="member_list">
                         <label for="trip-member" class="col-sm-2 col-form-label">Select Members</label>
-                        <div class="col-md-10">
+                        <div class="col-md-10" id="trip-member">
                             <select id="multiple-checkboxes" multiple="multiple" class=" lg_select_text_box" name="member[]" required>
 
                                 <!-- PHP Code to SPIT data here -->
@@ -310,6 +310,7 @@
     document.getElementById('trip_form').setAttribute('action', './add_trip.php')
     document.getElementById('add-trip-btn').style.display = 'block'
     document.getElementById('update-trip-btn').style.display = 'none'
+    $("#member_list").show()
     console.log('In trigger add trip()')
   }
 
@@ -320,12 +321,13 @@
     document.getElementById('trip_form').setAttribute('action', trip_id)
     document.getElementById('add-trip-btn').style.display = 'none'
     document.getElementById('update-trip-btn').style.display = 'block'
-
+    $("#member_list").hide()
     form_action = document.querySelector('#trip_form').getAttribute('action')
     if (form_action.search('update') != -1) {
       a = document.querySelector('#trip_form').querySelector('#update-trip-btn')
       a.removeAttribute('onclick')
     }
+
   }
 
   function clearForm () {
