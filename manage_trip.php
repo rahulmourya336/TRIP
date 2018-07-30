@@ -183,7 +183,7 @@ $user = $_SESSION['current_user'];
         <div class="col-xl-3 col-sm-6">
             <!-- Trigger the modal with a button -->
             <a href="#" data-toggle="modal" data-target="#myModal">
-                <div class="card text-white bg-light o-hidden h-100">
+                <div class="card text-white bg-light o-hidden">
                     <div class="card-body">
                         <div><h1 class="display-1 text-center text-primary">+</h1></div>
                     </div>
@@ -210,8 +210,7 @@ $user = $_SESSION['current_user'];
                     if ($result_name_sql > 0) {
                         echo "<script>console.log('%c Category found! ', 'background: white; color: Green');</script>";
                         $cat_name = $result_name_sql['ex_name'];
-                    }
-                    else{
+                    } else {
                         echo "<script>console.log('%c Category error! ', 'background: white; color: Green');</script>";
                         exit();
                     }
@@ -225,7 +224,7 @@ $user = $_SESSION['current_user'];
                 </div>
                 <a class=\"card-footer text-white clearfix small z-1\" href=\"#\">
                     <span class=\"float-left\">$expense_date</span>
-                    <span class=\"float-right\">$expense_amount </span>
+                    <span class=\"float-right\">&#8377; $expense_amount </span>
                 </a>
             </div>
         </div>";
