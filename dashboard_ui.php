@@ -342,12 +342,6 @@
       query.style.display = 'none'
     }
   }
-
-  function doubleClick (id, name) {
-    console.log('Trip id' + id + 'Trip Name' + name)
-    alert()
-  }
-
   function showImages () {
   //    var a = ''
   //    a += document.getElementById('trip-url').value

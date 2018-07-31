@@ -9,6 +9,8 @@
 session_start();
 $user = $_SESSION['current_user'];
 //include ('connection.php');
+
+$trip_id = $_GET['t_id']
 ?>
 
 
@@ -120,6 +122,10 @@ $user = $_SESSION['current_user'];
         status_prevent = one.search('t_id')
         status_success = one.search('SUCCESS')
         status_failed = one.search('ERROR')
+        trip_expense_remove_success = one.search('trip_remove=STATUS_OK')
+        trip_expense_remove_error = one.search('trip_remove=STATUS_ERRO')
+        trip_expense_update_success = one.search('flag=UPDATE_DONE')
+        trip_expense_update_error = one.search('flag=UPDATE_ERROR')
         if (status_prevent === -1) {
           window.location.href = 'dashboard.php'
         }
@@ -135,6 +141,68 @@ $user = $_SESSION['current_user'];
           document.getElementById('alert_message_content').classList.add('text-danger')
           document.getElementById('alert_message_content').innerHTML = 'Error while adding'
         }
+        else if (trip_expense_remove_success != -1) {
+          document.getElementById('alert_message_content').classList.add('text-success')
+          document.getElementById('alert_message_content').innerHTML = 'Expense removed successfully'
+        }
+        else if (trip_expense_remove_error != -1) {
+          document.getElementById('alert_message').classList.add('text-danger')
+          document.getElementById('alert_message_content').innerHTML = 'Error while removing'
+        }
+        else if (trip_expense_update_success != -1) {
+          document.getElementById('alert_message_content').classList.add('text-success')
+          document.getElementById('alert_message_content').innerHTML = 'Expense Updated'
+        }
+        else if (trip_expense_update_error != -1) {
+          document.getElementById('alert_message_content').classList.add('text-danger')
+          document.getElementById('alert_message_content').innerHTML = 'Unable to update expense'
+        }
+
+      }
+
+      function populate_expense (trip_expense_id) {
+        dummy_trip_id = '#_' + trip_expense_id
+        query = document.querySelector(dummy_trip_id)
+        console.log(dummy_trip_id)
+
+        expense_name = query.querySelector('#__expense_name').innerHTML.trim()
+        expense_category = query.querySelector('#__expense_category').getAttribute('name')
+        expense_date = query.querySelector('#__expense_date').innerHTML.trim()
+        expense_amount = query.querySelector('#__expense_amount').innerHTML.trim().split(' ')[1]
+
+        expense_date = expense_date.trim()
+
+        console.log(expense_name, expense_category, expense_date, expense_amount)
+
+        /* Populating the data */
+        document.getElementById('expense_name').value = expense_name
+        document.getElementById('expense_category').value = expense_category
+        document.getElementById('expense_date').value = expense_date
+        document.getElementById('expense_amount').value = expense_amount
+      }
+
+      function triggerAddExpense () {
+        document.getElementById('expense_form').setAttribute('action', './add_expense.php?t_id=<?=$trip_id?>')
+
+        document.getElementById('add-expense-btn').style.display = 'block'
+        document.getElementById('update-expense-btn').style.display = 'none'
+        console.log('In trigger add trip()')
+      }
+
+      function triggerUpdateExpense (trip_expense_id) {
+        url = './update_trip_expense.php?t_id=<?=$trip_id ?>&ex_id='
+        id = trip_expense_id
+        trip_expense_id = url.concat(id)
+        console.log(trip_expense_id)
+        document.getElementById('expense_form').setAttribute('action', trip_expense_id)
+
+        document.getElementById('add-expense-btn').style.display = 'none'
+        document.getElementById('update-expense-btn').style.display = 'block'
+      }
+
+      function clearForm () {
+        document.getElementById('expense_form').reset()
+        return true
       }
 
     </script>
@@ -171,8 +239,10 @@ $user = $_SESSION['current_user'];
 
 <!-- Show trip info here -->
 <div class="sidenav"><br/><br/>
-    <a href="#about" class="active">Add Expense</a>
-    <a href="#services">View Report</a>
+    <a href="#">Manage Traveller</a>
+    <a href="#" class="active">Add Expense</a>
+    <a href="report_trip.php?t_id=<?= $_GET['t_id'] ?>">View Report</a>
+
 </div>
 
 <!-- Main Page content -->
@@ -180,7 +250,7 @@ $user = $_SESSION['current_user'];
     <!-- Add new expense button-->
     <!--    Onclick open modal for form -->
     <div class="row">
-        <div class="col-xl-3 col-sm-6">
+        <div class="col-xl-3 col-sm-6" onclick='clearForm();triggerAddExpense()'>
             <!-- Trigger the modal with a button -->
             <a href="#" data-toggle="modal" data-target="#myModal">
                 <div class="card text-white bg-light o-hidden">
@@ -199,14 +269,16 @@ $user = $_SESSION['current_user'];
         if ($result = mysqli_query($connection, $select_expense_sql)) {
             if (mysqli_num_rows($result) > 0) {
                 while ($row = mysqli_fetch_array($result)) {
+                    $expense_id = $row['ex_id'];
                     $expense_name = $row['ex_name'];
                     $expense_amount = $row['ex_amount'];
                     $expense_date = $row['ex_date'];
                     $ex_cat = $row['c_id'];
-                    $category_name_sql = "select distinct ex_name from trip_expense_category where ex_id = $ex_cat";
+                    $category_name_sql = "select distinct ex_name,ex_id from trip_expense_category where ex_id = $ex_cat";
                     $result_name_sql = mysqli_query($connection, $category_name_sql);
                     $result_name_sql = mysqli_fetch_assoc($result_name_sql);
                     $cat_name = "";
+                    $cat_id = $result_name_sql['ex_id'];
                     if ($result_name_sql > 0) {
                         echo "<script>console.log('%c Category found! ', 'background: white; color: Green');</script>";
                         $cat_name = $result_name_sql['ex_name'];
@@ -214,27 +286,31 @@ $user = $_SESSION['current_user'];
                         echo "<script>console.log('%c Category error! ', 'background: white; color: Green');</script>";
                         exit();
                     }
-                    echo "<div class=\"col-xl-3 col-sm-6 mb-2\">
+                    echo "
+<div class=\"col-xl-3 col-sm-6 mb-2\" id='_$expense_id'>
             <div class=\"card text-white bg-warning o-hidden h-100\">
+
                 <div class=\"card-body\">
-                    <div class=\"card-body-icon\">
+                            <a href='./remove_trip_expense.php?t_id=$trip_id&expense_id=$expense_id'><button type=\"submit\" class=\"close btn\" aria-label=\"Close\">
+  <span aria-hidden=\"true\" >&times;</span>
+</button></a>
+<a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\" class='small' onclick='populate_expense($expense_id);triggerUpdateExpense($expense_id)' >Edit</a>                           
+                    <!--<div class=\"card-body-icon\" style='z-index: 0;'>
                         <i class=\"fas fa-fw fa-list\"></i>
-                    </div>
-                    <div class=\"mr-5\">$expense_name <h6>$cat_name</h6></div>
+                    </div>-->
+                    <div class=\"mr-5\" id='__expense_name'>$expense_name </div><div  id='__expense_category' name='$cat_id'><h6>$cat_name</h6></div>
+                    
                 </div>
                 <a class=\"card-footer text-white clearfix small z-1\" href=\"#\">
-                    <span class=\"float-left\">$expense_date</span>
-                    <span class=\"float-right\">&#8377; $expense_amount </span>
+                    <span class=\"float-left\" id=\"__expense_date\">$expense_date</span>
+                    <span class=\"float-right\" id='__expense_amount'>&#8377; $expense_amount </span>
                 </a>
             </div>
         </div>";
                 }
             }
         }
-
-
         ?>
-
     </div>
 
 
@@ -247,11 +323,11 @@ $user = $_SESSION['current_user'];
                 </div>
                 <div class="modal-body">
                     <!-- Form Start -->
-                    <form action="add_expense.php?t_id=<?= $_GET['t_id'] ?>" method="POST" id="trip_form">
+                    <form action="" method="POST" id="expense_form">
                         <div class="form-group row" id="member_list">
                             <label for="trip-member" class="col-sm-2 col-form-label">Category</label>
                             <div class="col-md-10" id="trip-member">
-                                <select name="expense_category" required>
+                                <select name="expense_category" required class="form-control" id="expense_category">
 
                                     <!-- PHP Code to SPIT data here -->
                                     <?php
@@ -301,7 +377,10 @@ $user = $_SESSION['current_user'];
                                        required name="expense_amount">
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn">Add Expense</button>
+                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn">Add Expense
+                        </button>
+                        <button type="submit" class="btn btn-success pull-right" id="update-expense-btn">Update Expense
+                        </button>
                     </form>
                     <!--Form End-->
                 </div>

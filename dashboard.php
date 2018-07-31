@@ -13,9 +13,10 @@ $fileName = "logout.php";
 if (isset($_SESSION["username"])) {
     include("connection.php");
     $username_ = $_SESSION["current_user"];
+    $current_user_id = $_SESSION['current_user_id'];
 
     /* Select the list of trips created */
-    $select_list_query = "select * from trip_list";
+    $select_list_query = "select * from trip_list INNER JOIN trip_traveller where trip_list.t_creator_id = $current_user_id and trip_traveller.u_id = $current_user_id";
     $result = mysqli_query($connection, $select_list_query);
     $index = mysqli_fetch_assoc($result);    // Trip details
 
@@ -26,7 +27,7 @@ if (isset($_SESSION["username"])) {
     $trip_creator_id = $index['t_creator_id'];
 
     /* Get total trip count */
-    $total_trip_count_query = "select count(*) as count from trip_list";
+    $total_trip_count_query = "select count(*) as count from trip_list INNER JOIN trip_traveller where trip_list.t_creator_id = $current_user_id and trip_traveller.u_id = $current_user_id";
     $trip_count_query_result = mysqli_query($connection, $total_trip_count_query);
     $trip_count = mysqli_fetch_assoc($trip_count_query_result);
     $trip_count = $trip_count["count"];         // Got the total trip count
