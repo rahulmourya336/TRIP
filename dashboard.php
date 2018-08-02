@@ -91,10 +91,9 @@ if (isset($_SESSION["username"])) {
                 if ($current_user_id != $trip_creator_id) {
                     echo "
                     <script>ToggleLink(true,$trip_id);</script>";
-                } else {
-                    echo "<a href='manage_trip.php?t_id=$trip_id' ><button type=\"button\" class=\"btn btn-default btn-sm\"> Manage </button></a>";
                 }
 
+                echo "<a href='manage_trip.php?t_id=$trip_id' ><button type=\"button\" class=\"btn btn-default btn-sm\"> Manage </button></a>";
                 echo "</div><!-- End of card-group -->";
             }
 

@@ -9,9 +9,8 @@
 session_start();
 include ("check_session.php");
 $user = $_SESSION['current_user'];
-//include ('connection.php');
+$trip_id = $_GET['t_id'];
 
-$trip_id = $_GET['t_id']
 ?>
 
 
@@ -205,13 +204,12 @@ $trip_id = $_GET['t_id']
         document.getElementById('expense_form').reset()
         return true
       }
-
     </script>
 </head>
 <body>
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded p-2" style="background-color: #E1E1E1; z-index: 999">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            data-target="#navbarSupportedContent" ariacontrols="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -240,7 +238,15 @@ $trip_id = $_GET['t_id']
 
 <!-- Show trip info here -->
 <div class="sidenav"><br/><br/>
-    <a href="#">Manage Traveller</a>
+    <?php
+    include("is_creator.php");
+    if($is_creator === true){
+        ?>
+        <a href="#" id="manageTravellerLink">Manage Traveller</a>
+    <?php
+    }
+    ?>
+
     <a href="#" class="active">Add Expense</a>
     <a href="report_trip.php?t_id=<?= $_GET['t_id'] ?>">View Report</a>
 

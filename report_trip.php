@@ -2,7 +2,8 @@
 
 session_start();
 $user = $_SESSION['current_user'];
-include ("check_session.php");
+$current_user_id = $_SESSION['current_user_id'];
+include("check_session.php")
 //include ('connection.php');
 ?>
 
@@ -109,31 +110,26 @@ include ("check_session.php");
         }
 
         /* Donut Chart Styles*/
-        .pie {
-            margin: 20px;
+        #chart {
+            height: 400px;
         }
 
-        .pie text {
-            font-family: "Verdana";
-            fill: #888;
-        }
-
-        .pie .name-text {
-            font-size: 1em;
-        }
-
-        .pie .value-text {
-            font-size: 3em;
-        }
     </style>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
     <script>
-      var data = []
+      var total_data_JSON = []
+      var individual_data_JSON = []
 
-      function setJSON (JSONData) {
-        data = JSONData
-        console.log(data)
+      function setJSON_total (JSONData) {
+        total_data_JSON = JSONData
+        console.log(total_data_JSON)
       }
+
+      function setJSON_individual (JSONData) {
+        individual_data_JSON = JSONData
+        console.log(individual_data_JSON)
+      }
+
     </script>
     <script>
       window.onload = function () {
@@ -193,7 +189,14 @@ include ("check_session.php");
 
 <!-- Show trip info here -->
 <div class="sidenav"><br/><br/>
-    <a href="#">Manage Traveller</a>
+    <?php
+    include("is_creator.php");
+    if ($is_creator === true) {
+        ?>
+        <a href="#" id="manageTravellerLink">Manage Traveller</a>
+        <?php
+    }
+    ?>
     <a href="manage_trip.php?t_id=<?= $_GET['t_id'] ?>">Add Expense</a>
     <a href="#" class="active">View Report</a>
 
@@ -209,6 +212,18 @@ include ("check_session.php");
     $trip_name = mysqli_fetch_assoc($trip_name);
     $trip_name = $trip_name['t_name'];
 
+    /* Individual trip expense */
+    $count_individual_sql = "select sum(ex_amount) as total from trip_expenese where t_id  = $trip_id and u_id = $current_user_id;";
+    $result_individual = mysqli_query($connection, $count_individual_sql);
+    $result_individual = mysqli_fetch_assoc($result_individual);
+    $total_expense_individual = $result_individual['total'];
+    if ($result_individual > 0) {
+        if ($result_individual['total'] === null) {
+            $total_expense_individual = 0;
+        }
+    }
+
+    /* Total trip expense */
     $count_total_sql = "select sum(ex_amount) as total from trip_expenese where t_id  = $trip_id;";
     $result = mysqli_query($connection, $count_total_sql);
     $result = mysqli_fetch_assoc($result);
@@ -219,19 +234,35 @@ include ("check_session.php");
         }
         echo "<div class=\"alert alert-dark\" role=\"alert\">
   Total trip expense of <span class='text-info'>$trip_name</span> is &#8377;<strong> $total_expense</strong>
+ 
+  <small class='pull-right'>Your total expense is: &#8377; <span class='text-info'>$total_expense_individual</span></small>
 </div>";
     } else {
         echo "Total trip count error";
         exit();
     }
 
-    //    Create Dounut char for categorie of expense
+    /*
+      *
+      * Total expense JSON prepare
+      *
+      */
+
 
     // Get name and expense
     $name_sql = "select * from trip_expenese where t_id = $trip_id";
     $expense_JSON = Array();
+    $unique_list_JSON = Array();
+    $single_list_JSON = Array();
     $result = mysqli_query($connection, $name_sql);
     if (mysqli_num_rows($result) > 0) {
+//        $select_count_cid = "select count(c_id) as count_cid from trip_expenese where t_id = $trip_id";
+//        $cid_count = mysqli_query($connection, $select_count_cid);
+//        $cid_count = mysqli_fetch_assoc($cid_count);
+//
+//        echo $cid_count['count_cid'];
+//        exit();
+
         while ($row = mysqli_fetch_array($result)) {
             $expense_name = $row['ex_name'];
             $expense_amount = $row['ex_amount'];
@@ -248,18 +279,105 @@ include ("check_session.php");
                 echo "<script>console.log('%c Category error! ', 'background: white; color: Green');</script>";
                 exit();
             }
-            $expense_JSON[] = array('name' => $cat_name, 'value' => $expense_amount);
+
+
+            $expense_JSON[] = array('label' => $cat_name, 'value' => $expense_amount);
+
         }
-        $expense_JSON = json_encode($expense_JSON);
-        echo "<script>setJSON($expense_JSON)</script>";
+/*
+        $array_length = count($expense_JSON);
+        for ($i = 0; $i < $array_length -1; $i++) {
+            for ($j = 1 ; $j < $array_length; $j++) {
+
+                echo $expense_JSON[$i]['label'];
+                echo $expense_JSON[$j]['label'];
+                echo "<br />";
+                if ($expense_JSON[$i]['label'] == $expense_JSON[$j]['label']) {
+                    $sum = $expense_JSON[$i]['value'] + $expense_JSON[$j]['value'];
+                    $unique_list_JSON[$i] = array('label' => $expense_JSON[$i]['label'], 'value' => $sum);
+                } else {
+                    $unique_list_JSON[$i] = $expense_JSON[$i];
+                }
+            }
+
+        }*/
+        print_r(json_encode($expense_JSON));
+        echo "<br /><br /><br />";
+        print_r(json_encode($unique_list_JSON));
+//        exit();
+//        end of unique list json
+//        $expense_JSON = json_encode($expense_JSON);
+
+        $unique_list_JSON = json_encode($unique_list_JSON);
+        echo "<script>setJSON_total($unique_list_JSON)</script>";
     } else {
         echo "<span class='text-secondary'>Please add expenses to view report.</span>";
         exit();
     }
+
+    /*
+     *
+     * Individual expense JSON prepare
+     *
+     */
+
+    $select_individual_expense_sql = "select * from trip_expenese where t_id  = $trip_id and u_id = $current_user_id;";
+    $individual_expense_JSON = Array();
+    $result = mysqli_query($connection, $select_individual_expense_sql);
+    if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_array($result)) {
+            $expense_name = $row['ex_name'];
+            $expense_amount = $row['ex_amount'];
+            $expense_date = $row['ex_date'];
+            $ex_cat = $row['c_id'];
+            $category_name_sql_individual = "select distinct ex_name from trip_expense_category where ex_id = $ex_cat";
+            $result_name_sql_individual = mysqli_query($connection, $category_name_sql_individual);
+            $result_name_sql_individual = mysqli_fetch_assoc($result_name_sql_individual);
+            $cat_name = "";
+            if ($result_name_sql_individual > 0) {
+                echo "<script>console.log('%c Category found! ', 'background: white; color: Green');</script>";
+                $cat_name = $result_name_sql_individual['ex_name'];
+            } else {
+                echo "<script>console.log('%c Category error! ', 'background: white; color: Green');</script>";
+                exit();
+            }
+            $individual_expense_JSON[] = array('label' => $cat_name, 'value' => $expense_amount);
+        }
+
+
+       /* $array_length = count($individual_expense_JSON);
+        for($i=0; $i < $array_length - 1; $i++ ){
+            for($j=$i + 1; $j < $array_length ; $j++ ){
+                if( $individual_expense_JSON[$i]['label'] ==  $individual_expense_JSON[$j]['label']){
+                    $sum =  $individual_expense_JSON[$i]['value'] +  $individual_expense_JSON[$j]['value'];
+                    $single_list_JSON[$i] = array('label' =>  $individual_expense_JSON[$i]['label'], 'value' => $sum);
+                }
+                else{
+                    $single_list_JSON[$i] = array('label' =>  $individual_expense_JSON[$i]['label'], 'value' =>  $individual_expense_JSON[$i]['value']);
+                }
+            }
+
+        }*/
+
+        $single_list_JSON = json_encode($single_list_JSON);
+        //exit();
+        echo "<script>setJSON_individual($single_list_JSON)</script>";
+    }
+    else{
+
+    }
+
     ?>
+    <div class="row">
+    <div class="col-md-5 text-center"> Total expense</div>
+    <div class="col-md-2 text-center"></div>
+    <div class="col-md-5 text-left">Individual Expense</div>
+    </div>
 
-
-    <div id="chart"></div>
+    <div class="row">
+        <div id="chart_total"></div>
+        <div id="chart_individual"></div>
+    </div>
 </div>
 
 </body>
@@ -270,59 +388,26 @@ include ("check_session.php");
     $('#alert_message').modal('hide')
   }, 3000)
 </script>
-
-<!-- Donut chart Script -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 <script>
-  var text = 'Expense'
+    window.onload = function () {
+      Morris.Donut({
+        element: 'chart_total',
+        data: total_data_JSON
+      })
 
-  var width = 480
-  var height = 460
-  var thickness = 50
-  var duration = 750
+      Morris.Donut({
+        element: 'chart_individual',
+        data: individual_data_JSON
+      })
 
-  var radius = Math.min(width, height) / 2
-  var color = d3.scaleOrdinal(d3.schemeCategory10)
-
-  var svg = d3.select('#chart').append('svg').attr('class', 'pie').attr('width', width).attr('height', height)
-
-  var g = svg.append('g').attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
-
-  var arc = d3.arc().innerRadius(radius - thickness).outerRadius(radius)
-
-  var pie = d3.pie().value(function (d) {
-    return d.value
-  }).sort(null)
-
-  var path = g.selectAll('path').data(pie(data)).enter().append('g').on('mouseover', function (d) {
-    let g = d3.select(this).style('cursor', 'pointer').style('fill', 'black').append('g').attr('class', 'text-group')
-
-    g.append('text').
-      attr('class', 'name-text').
-      text(`${d.data.name}`).
-      attr('text-anchor', 'middle').
-      attr('dy', '-1.2em')
-
-    g.append('text').
-      attr('class', 'value-text').
-      text(`${d.data.value}`).
-      attr('text-anchor', 'middle').
-      attr('dy', '.9em')
-  }).on('mouseout', function (d) {
-    d3.select(this).style('cursor', 'none').style('fill', color(this._current)).select('.text-group').remove()
-  }).append('path').attr('d', arc).attr('fill', (d, i) = > color(i)
-  )
-  .on('mouseover', function (d) {
-    d3.select(this).style('cursor', 'pointer').style('fill', 'black')
-  }).on('mouseout', function (d) {
-    d3.select(this).style('cursor', 'none').style('fill', color(this._current))
-  }).each(function (d, i) {
-    this._current = i
-  })
-
-  g.append('text').attr('text-anchor', 'middle').attr('dy', '.3em').text(text)
+    }
 
 </script>
-<!-- end of dounut chart-->
+<!-- End of Google Chart-->
 
 <script src='js/sb-admin.js'></script>
 </html>

@@ -341,6 +341,7 @@
       query = document.querySelector(dummy_trip_id).querySelector('#trip-action-button')
       query.style.display = 'none'
     }
+    return;
   }
   function showImages () {
   //    var a = ''
