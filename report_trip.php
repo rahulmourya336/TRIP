@@ -2,6 +2,7 @@
 
 session_start();
 $user = $_SESSION['current_user'];
+include ("check_session.php");
 //include ('connection.php');
 ?>
 
@@ -127,7 +128,7 @@ $user = $_SESSION['current_user'];
     </style>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
     <script>
-      var data = [];
+      var data = []
 
       function setJSON (JSONData) {
         data = JSONData
@@ -213,8 +214,11 @@ $user = $_SESSION['current_user'];
     $result = mysqli_fetch_assoc($result);
     $total_expense = $result['total'];
     if ($result > 0) {
+        if ($result['total'] === null) {
+            $total_expense = 0;
+        }
         echo "<div class=\"alert alert-dark\" role=\"alert\">
-  Total trip expense of <span class='text-info'>$trip_name</span> is &#8377; <strong> $total_expense</strong>
+  Total trip expense of <span class='text-info'>$trip_name</span> is &#8377;<strong> $total_expense</strong>
 </div>";
     } else {
         echo "Total trip count error";
@@ -249,7 +253,7 @@ $user = $_SESSION['current_user'];
         $expense_JSON = json_encode($expense_JSON);
         echo "<script>setJSON($expense_JSON)</script>";
     } else {
-        echo "No trip found";
+        echo "<span class='text-secondary'>Please add expenses to view report.</span>";
         exit();
     }
     ?>
@@ -269,98 +273,53 @@ $user = $_SESSION['current_user'];
 
 <!-- Donut chart Script -->
 <script>
-  var text = "Expense";
+  var text = 'Expense'
 
-  var width = 480;
-  var height = 460;
-  var thickness = 50;
-  var duration = 750;
+  var width = 480
+  var height = 460
+  var thickness = 50
+  var duration = 750
 
-  var radius = Math.min(width, height) / 2;
-  var color = d3.scaleOrdinal(d3.schemeCategory10);
+  var radius = Math.min(width, height) / 2
+  var color = d3.scaleOrdinal(d3.schemeCategory10)
 
-  var svg = d3
-  .select("#chart")
-  .append("svg")
-  .attr("class", "pie")
-  .attr("width", width)
-  .attr("height", height);
+  var svg = d3.select('#chart').append('svg').attr('class', 'pie').attr('width', width).attr('height', height)
 
-  var g = svg
-  .append("g")
-  .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+  var g = svg.append('g').attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')')
 
-  var arc = d3
-  .arc()
-  .innerRadius(radius - thickness)
-  .outerRadius(radius);
+  var arc = d3.arc().innerRadius(radius - thickness).outerRadius(radius)
 
-  var pie = d3
-  .pie()
-  .value(function(d) {
-    return d.value;
+  var pie = d3.pie().value(function (d) {
+    return d.value
+  }).sort(null)
+
+  var path = g.selectAll('path').data(pie(data)).enter().append('g').on('mouseover', function (d) {
+    let g = d3.select(this).style('cursor', 'pointer').style('fill', 'black').append('g').attr('class', 'text-group')
+
+    g.append('text').
+      attr('class', 'name-text').
+      text(`${d.data.name}`).
+      attr('text-anchor', 'middle').
+      attr('dy', '-1.2em')
+
+    g.append('text').
+      attr('class', 'value-text').
+      text(`${d.data.value}`).
+      attr('text-anchor', 'middle').
+      attr('dy', '.9em')
+  }).on('mouseout', function (d) {
+    d3.select(this).style('cursor', 'none').style('fill', color(this._current)).select('.text-group').remove()
+  }).append('path').attr('d', arc).attr('fill', (d, i) = > color(i)
+  )
+  .on('mouseover', function (d) {
+    d3.select(this).style('cursor', 'pointer').style('fill', 'black')
+  }).on('mouseout', function (d) {
+    d3.select(this).style('cursor', 'none').style('fill', color(this._current))
+  }).each(function (d, i) {
+    this._current = i
   })
-  .sort(null);
 
-  var path = g
-  .selectAll("path")
-  .data(pie(data))
-  .enter()
-  .append("g")
-  .on("mouseover", function(d) {
-    let g = d3
-    .select(this)
-    .style("cursor", "pointer")
-    .style("fill", "black")
-    .append("g")
-    .attr("class", "text-group");
-
-    g
-    .append("text")
-    .attr("class", "name-text")
-    .text(`${d.data.name}`)
-    .attr("text-anchor", "middle")
-    .attr("dy", "-1.2em");
-
-    g
-    .append("text")
-    .attr("class", "value-text")
-    .text(`${d.data.value}`)
-    .attr("text-anchor", "middle")
-    .attr("dy", ".9em");
-  })
-  .on("mouseout", function(d) {
-    d3
-    .select(this)
-    .style("cursor", "none")
-    .style("fill", color(this._current))
-    .select(".text-group")
-    .remove();
-  })
-  .append("path")
-  .attr("d", arc)
-  .attr("fill", (d, i) => color(i))
-  .on("mouseover", function(d) {
-    d3
-    .select(this)
-    .style("cursor", "pointer")
-    .style("fill", "black");
-  })
-  .on("mouseout", function(d) {
-    d3
-    .select(this)
-    .style("cursor", "none")
-    .style("fill", color(this._current));
-  })
-  .each(function(d, i) {
-    this._current = i;
-  });
-
-  g
-  .append("text")
-  .attr("text-anchor", "middle")
-  .attr("dy", ".3em")
-  .text(text);
+  g.append('text').attr('text-anchor', 'middle').attr('dy', '.3em').text(text)
 
 </script>
 <!-- end of dounut chart-->

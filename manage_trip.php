@@ -7,6 +7,7 @@
 <?php
 
 session_start();
+include ("check_session.php");
 $user = $_SESSION['current_user'];
 //include ('connection.php');
 
