@@ -142,6 +142,14 @@ $TRIP_ADMIN = FALSE;
         }
       }
 
+      function validateCheckboxEmpty(){
+        option = document.getElementById("multiple-checkboxes");
+        if(option.querySelector("option") === null){
+          error_message_container.innerHTML = "All members are in trip list ";
+          return false
+        }
+      }
+
     </script>
 </head>
 <body>
@@ -268,7 +276,6 @@ $TRIP_ADMIN = FALSE;
             <div class="modal-header">
                 <h4 class="modal-title">Add traveller for <?= $trip_name ?></h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-
             </div>
             <div class="modal-body">
                 <!-- Form Start -->
@@ -288,45 +295,47 @@ $TRIP_ADMIN = FALSE;
 
                                 <!-- PHP Code to SPIT data here -->
                                 <?php
-                                /* Combine two array and make associative array */
-                                function Combine($array1, $array2)
-                                {
-                                    if (count($array1) == count($array2)) {
-                                        $assArray = array();
-                                        for ($i = 0; $i < count($array1); $i++) {
-                                            $assArray[$array1[$i]] = $array2[$i];
+                                /* TODO :Combine two array and make associative array and list name in ascending order */
+
+                                $trip_list = Array();
+                                $trip_traveller_list = Array();
+
+                                $select_query = "select u_id, u_name from trip_user";
+                                if ($result = mysqli_query($connection, $select_query)) {
+                                    if (mysqli_num_rows($result) > 0) {
+                                        while ($row = mysqli_fetch_array($result)) {
+                                            array_push($trip_list, $row['u_id']);
                                         }
-                                        return $assArray;
                                     }
                                 }
 
-                                //                                TODO : Spit Sorted name to dropdown list
+                                $select_query_traveller = "select u_id from trip_traveller WHERE t_id=$trip_id";
+                                if ($result = mysqli_query($connection, $select_query_traveller)) {
+                                    if (mysqli_num_rows($result) > 0) {
+                                        while ($row = mysqli_fetch_array($result)) {
+                                            array_push($trip_traveller_list, $row['u_id']);
+                                        }
+                                    }
+                                }
+                                // Removed matching elements
+                                $trip_list = array_diff($trip_list, $trip_traveller_list);
+                                print_r($trip_list);
 
+                                foreach ($trip_list as $ts) {
+                                    $select_query = "select u_id, u_name from trip_user WHERE u_id = '$ts'";
+                                    if ($result = mysqli_query($connection, $select_query)) {
+                                        if (mysqli_num_rows($result) > 0) {
 
-//                                $select_query = "select u_id, u_name from trip_user WHERE u_id != '$current_user_id'";
-//                                if ($result = mysqli_query($connection, $select_query)) {
-//                                    if (mysqli_num_rows($result) > 0) {
-//
-//                                        while ($row = mysqli_fetch_array($result)) {
-//                                            $trip_id = $row['u_id'];
-//                                            $trip_name = $row['u_name'];
-//                                            echo "
-//                                <option value='$trip_id'>$trip_name</option>
-//                                ";
-//                                        }
-//                                    }
-//                                }
-                                $trip_list = Array();
-
-                                $select_query = "select u_id, u_name from trip_user";
-                                $name_array = mysqli_query($connection, $select_query);
-                                $user_name_list = mysqli_fetch_assoc($name_array);
-
-                                $select_query_traveller = "select u_id from trip_traveller WHERE u_id != '$current_user_id'";
-                                $traveller_name_array = mysqli_query($connection, $select_query_traveller);
-                                $traveller_name_list = mysqli_fetch_assoc($traveller_name_array);
-
-                                print_r
+                                            while ($row = mysqli_fetch_array($result)) {
+                                                $trip_id = $row['u_id'];
+                                                $trip_name = $row['u_name'];
+                                                echo "
+                                   <option value='$trip_id'>$trip_name</option>
+                                   ";
+                                            }
+                                        }
+                                    }
+                                }
 
 
                                 ?>
@@ -337,18 +346,23 @@ $TRIP_ADMIN = FALSE;
 
 
                     </div>
-                    <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn" onclick="checkCheckboxStatus()">Add Traveller</button>
+                    <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn" onclick="checkCheckboxStatus();validateCheckboxEmpty()">Add Traveller</button>
                 </form>
                 <!--Form End-->
             </div>
             <div class="modal-footer">
+                <!-- Spit temp modal data -->
+                <?php
+
+                echo "<br />";
+
+                ?>
                 <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
             </div>
         </div>
 
     </div>
 </div>
-
 
 <!-- Status modal -->
 <div class="modal fade" id="alert_message">
