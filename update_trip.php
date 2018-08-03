@@ -15,7 +15,7 @@ include("connection.php");
 @$trip_start_date = $_POST['trip-starting-date'];
 @$trip_end_date = $_POST['trip-ending-date'];
 
-$update_query = "UPDATE trip_list SET t_url = '$trip_url', t  _name = '$trip_name', t_start_date = '$trip_start_date', t_end_date = '$trip_end_date'  where t_id = '$trip_id'";
+$update_query = "UPDATE trip_list SET t_url = '$trip_url', t_name = '$trip_name', t_start_date = '$trip_start_date', t_end_date = '$trip_end_date'  where t_id = '$trip_id'";
 
 //print($trip_id." ".$trip_name ." ". $trip_url ."". $trip_start_date."". $trip_end_date );
 

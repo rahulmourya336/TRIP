@@ -145,7 +145,7 @@ $TRIP_ADMIN = FALSE;
       function validateCheckboxEmpty(){
         option = document.getElementById("multiple-checkboxes");
         if(option.querySelector("option") === null){
-          error_message_container.innerHTML = "All members are in trip list ";
+          error_message_container.innerHTML = "All members are in traveller list. ";
           return false
         }
       }

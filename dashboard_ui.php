@@ -309,12 +309,12 @@
       return true
     }
   }
-
+    var memberList;
   function triggerAddTrip () {
     document.getElementById('trip_form').setAttribute('action', './add_trip.php')
     document.getElementById('add-trip-btn').style.display = 'block'
     document.getElementById('update-trip-btn').style.display = 'none'
-    $("#member_list").show()
+    memberList.add();
     console.log('In trigger add trip()')
   }
 
@@ -325,7 +325,8 @@
     document.getElementById('trip_form').setAttribute('action', trip_id)
     document.getElementById('add-trip-btn').style.display = 'none'
     document.getElementById('update-trip-btn').style.display = 'block'
-    $("#member_list").hide()
+    memberList = $("#member_list")
+    $("#member_list").remove();
     form_action = document.querySelector('#trip_form').getAttribute('action')
     if (form_action.search('update') != -1) {
       a = document.querySelector('#trip_form').querySelector('#update-trip-btn')
