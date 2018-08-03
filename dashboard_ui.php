@@ -39,52 +39,56 @@
         label.checkbox{
             width: 400px !important;
         }
+        .bg-white-text{
+            color: #fff !important;
+        }
+        .bg-text-underline{
+            text-decoration: underline;
+        }
     </style>
 </head>
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: #E1E1E1;">
+<nav class="navbar sticky-top navbar-toggleable-md bg-primary">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">TRIPP.</a>
+    <a class="navbar-brand bg-white-text" href="#" > TRIPP.</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="manage_trip.php">Expense</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link bg-white-text" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
         </ul>
         <ul class="navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link " href="logout.php"><span class="text-primary"><?php echo $user.'  ' ?></span>logout</a>
+                <a class="nav-link bg-white-text" href="logout.php"><span class="bg-white-text bg-text-underline"><?php echo $user.'  ' ?></span>logout</a>
             </li>
         </ul>
 
     </div>
 </nav>
 
-<div class="alert alert-dismissible fade show" role="alert" id='trip_status'>
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-</div>
+<!--<div class="alert alert-dismissible fade show" role="alert" id='trip_status'>-->
+<!--    <button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
+<!--        <span aria-hidden="true">&times;</span>-->
+<!--    </button>-->
+<!--</div>-->
 
-<div id="addTrip">
-    <div class="col-md-2">
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
         <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#myModal"
+        <button type="button" class="btn btn-lg btn-primary btn-block col-md-5" style="margin: 0 auto;" data-toggle="modal" data-target="#myModal"
                 onclick="clearForm();triggerAddTrip()">
-            Add Trip
+            <strong>+ </strong>Add Trip
         </button>
-    </div>
-</div> <!-- End of id=addtrip of dashboard.html-->
+    </ol>
+</nav>
+
+
+<!--</div>  End of id=addtrip of dashboard.html-->
 
 <!-- Modal -->
 <div id="myModal" class="modal fade " role="dialog">

@@ -19,24 +19,19 @@ $trip_id = $_GET['t_id'];
 <head>
     <meta charset="UTF-8">
     <title>.: TRIPP | Dashboard :.</title>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap core CSS-->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="css/sb-admin.css" rel="stylesheet">
+    <?php include ("head_assets.html");?>
 
 
     <style>
+        .bg-white-text{
+            color: #fff !important;
+        }
+        .bg-text-underline{
+            text-decoration: underline;
+        }
+        .nav-link:hover{
+            color: #fff !important;
+        }
         .sidenav {
             height: 100%;
             width: 220px;
@@ -207,7 +202,7 @@ $trip_id = $_GET['t_id'];
     </script>
 </head>
 <body>
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded p-2" style="background-color: #E1E1E1; z-index: 999">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded p-2" style="background-color: #6200ea; z-index: 999">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" ariacontrols="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -229,7 +224,7 @@ $trip_id = $_GET['t_id'];
         </ul>
         <ul class="navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link " href="logout.php"><span class="text-primary"><?php echo $user . '  ' ?></span>logout</a>
+                <a class="nav-link bg-white-text" href="logout.php"><span class="bg-text-underline"><?php echo $user . '  ' ?></span>logout</a>
             </li>
         </ul>
 
@@ -242,7 +237,7 @@ $trip_id = $_GET['t_id'];
     include("is_creator.php");
     if($is_creator === true){
         ?>
-        <a href="#" id="manageTravellerLink">Manage Traveller</a>
+        <a href="manage_travellers.php?t_id=<?= $_GET['t_id'] ?>" id="manageTravellerLink">Manage Traveller</a>
     <?php
     }
     ?>
