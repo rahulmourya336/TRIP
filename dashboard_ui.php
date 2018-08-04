@@ -45,13 +45,16 @@
         .bg-text-underline{
             text-decoration: underline;
         }
+        .navbar-toggler-icon{
+
+        }
     </style>
 </head>
 <nav class="navbar sticky-top navbar-toggleable-md bg-primary">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon bg-white-text"><strong> ≡ </strong></span>
     </button>
     <a class="navbar-brand bg-white-text" href="#" > TRIPP.</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -77,7 +80,7 @@
 <!--</div>-->
 
 
-<nav aria-label="breadcrumb">
+<nav aria-label="breadcrumb sticky-top">
     <ol class="breadcrumb">
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-lg btn-primary btn-block col-md-5" style="margin: 0 auto;" data-toggle="modal" data-target="#myModal"

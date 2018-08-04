@@ -8,5 +8,6 @@
 
     session_start();
     session_destroy();
+    $_SESSION["username"] = "";
     unset($_SESSION["username"]);
     header("Location: ./signin.php");

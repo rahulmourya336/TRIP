@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,12 +17,17 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
     <script>
+        function loggedUser(){
+          window.location.href = "dashboard.php";
+        }
+
       function invalidCredentials () {
         $().alert()
         setTimeout(function () {$('.alert').alert('close')}, 4000)
       }
 
       window.onload = function () {
+
         one = window.location.href
         status = one.search('invalid')
         if (status == -1) {
@@ -38,6 +46,11 @@
 
 
     </script>
+    <?php
+    if(isset($_SESSION["username"])){
+        echo "<script>loggedUser();</script>";
+    }
+    ?>
 
 </head>
 

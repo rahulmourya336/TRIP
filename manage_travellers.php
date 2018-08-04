@@ -128,10 +128,10 @@ $TRIP_ADMIN = FALSE;
           document.getElementById('alert_message_content').innerHTML = 'Error while updating'
         }
       }
+
       function checkCheckboxStatus(){
         check_status = document.querySelector(".multiselect-selected-text").innerText
         error_message_container = document.getElementById('checkbox_error_message')
-
         if(check_status.search("None") !== -1){
           error_message_container.innerHTML = "Select members";
           return false
@@ -144,6 +144,7 @@ $TRIP_ADMIN = FALSE;
 
       function validateCheckboxEmpty(){
         option = document.getElementById("multiple-checkboxes");
+        error_message_container = document.getElementById('checkbox_error_message')
         if(option.querySelector("option") === null){
           error_message_container.innerHTML = "All members are in traveller list. ";
           return false
@@ -228,7 +229,7 @@ $TRIP_ADMIN = FALSE;
     <div class="row">
         <!--    Trigger modal using button -->
         <button type="button" class="btn btn-info btn-circle btn-xl btn-block col-md-6"
-                style="margin:0 auto;margin-bottom: 30px" data-toggle="modal" data-target="#myModal"><strong>+</strong> Add travellers
+                style="margin:0 auto;margin-bottom: 30px" data-toggle="modal" data-target="#myModal" onclick="validateCheckboxEmpty()"><strong>+</strong> Add travellers
         </button>
     </div>
     <?php
@@ -253,6 +254,11 @@ $TRIP_ADMIN = FALSE;
                     <span aria-hidden=\"true\">&times;</span>
                   </button>
                   </a>";
+                    }
+                    else{
+                        echo "
+                        <strong class='close '>You</strong>
+                        ";
                     }
                     echo " 
                 </div>
@@ -346,7 +352,7 @@ $TRIP_ADMIN = FALSE;
 
 
                     </div>
-                    <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn" onclick="checkCheckboxStatus();validateCheckboxEmpty()">Add Traveller</button>
+                    <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn" onclick="validateCheckboxEmpty()">Add Traveller</button>
                 </form>
                 <!--Form End-->
             </div>
