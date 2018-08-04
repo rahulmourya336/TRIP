@@ -164,12 +164,19 @@ include("check_session.php")
             <li class="nav-item ">
                 <a class="nav-link" href="dashboard.php">Home </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Expense <span class="sr-only">(current)</span></a>
+            <li class="nav-item active ">
+                <a class="nav-link bg-white-text" href="manage_trip.php?t_id=<?= $_GET['t_id'] ?>">Expense <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Manage</a>
-            </li>
+            <?php
+            include("is_creator.php");
+            if ($is_creator === true) {
+                ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="manage_travellers.php?t_id=<?= $_GET['t_id'] ?>"">Manage</a>
+                </li>
+                <?php
+            }
+            ?>
         </ul>
         <ul class="navbar-nav navbar-right">
             <li class="nav-item">

@@ -6,7 +6,7 @@
  * Time: 12:48 PM
  */
 include("connection.php");
-session_start();
+
 
 // initializing variables
 $username = "";
@@ -43,8 +43,8 @@ if (isset($_POST['reg_user'])) {
         $query = "INSERT INTO trip_user (u_name, u_email, u_mobile, u_password, u_status) 
   			  VALUES('$username', '$email', '$mobile', '$password', '$status')";
         mysqli_query($connection, $query);
-        $_SESSION['username'] = $email;
-        $_SESSION['success'] = "You are now logged in";
+//        $_SESSION['username'] = $email;
+//        $_SESSION['success'] = "You are now logged in";
         header('location: ./signin.php?loginfirst');
     }
 

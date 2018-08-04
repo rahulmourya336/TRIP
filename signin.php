@@ -16,6 +16,57 @@ session_start();
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <style>
+        .heropanel--video {
+            font-family: 'Open Sans', sans-serif;
+            min-height: 639px;
+        }
+        @keyframes gm-slidein {
+            from {
+                -webkit-transform:translate3d(0,-100%,0);
+                opacity:0;
+                transform:translate3d(0,-100%,0);
+            }
+
+            to {
+                -webkit-transform:none;
+                opacity:1;
+                transform:none;
+            }
+        }
+
+        .heropanel__content {
+            -moz-animation:gm-slidein 3s 1;
+            -ms-animation:gm-slidein 3s 1;
+            -o-animation:gm-slidein 3s 1;
+            -webkit-animation:gm-slidein 3s 1;
+            animation:gm-slidein 3s 1;
+            border-bottom:1px solid #FFF;
+            margin:0 auto;
+            max-width:50%;
+            padding:4em 0 2em;
+            text-align:center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .heropanel__content h1 {
+            margin:0 0 .5em;
+            margin-top: 40px;
+            text-transform:uppercase;
+        }
+
+        .heropanel__content h1 a {
+            color:#FFF;
+            text-decoration:none;
+        }
+
+        .heropanel__content p {
+            color:#fff;
+            margin:0;
+            text-transform:uppercase;
+        }
+
+    </style>
     <script>
         function loggedUser(){
           window.location.href = "dashboard.php";
@@ -51,12 +102,18 @@ session_start();
         echo "<script>loggedUser();</script>";
     }
     ?>
-
+    <script src="https://www.gordonmac.com/wp-content/themes/2016/vendor/vide/jquery.vide.min.js"></script>
 </head>
 
 <body>
-
+<!-- Background Video-->
+<header class="heropanel--video" data-vide-bg="mp4: ./images/Travel_Video.mp4,  data-vide-options="posterType: png, loop: true, muted: true, position: 90% 20% style="z-index: 0!important;">
+    <div class="heropanel__content">
+        <h1><a rel="home">No Static Web Pages</a></h1>
+    </div>
+</header>
 <div class="signin__container">
+
     <div class="container__child signin__thumbnail">
         <div class="thumbnail__content text-center">
             <h1 class="heading--primary">Welcome to TRIP</h1>
