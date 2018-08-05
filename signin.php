@@ -108,9 +108,6 @@ session_start();
 <body>
 <!-- Background Video-->
 <header class="heropanel--video" data-vide-bg="mp4: ./images/Travel_Video.mp4,  data-vide-options="posterType: png, loop: true, muted: true, position: 90% 20% style="z-index: 0!important;">
-    <div class="heropanel__content">
-        <h1><a rel="home">No Static Web Pages</a></h1>
-    </div>
 </header>
 <div class="signin__container">
 
@@ -143,7 +140,7 @@ session_start();
             <div class="form-group">
                 <label for="password">Password</label>
                 <input class="form-control" type="password" name="password" id="password" placeholder="********"
-                       required/>
+                       required minlength="6"/>
             </div>
             <div class="m-t-lg">
                 <ul class="list-inline">

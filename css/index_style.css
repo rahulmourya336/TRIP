@@ -48,7 +48,7 @@ a,
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: url(../images/index_branding.jpg);
+  /*background: url(../images/index_branding.jpg);*/
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;

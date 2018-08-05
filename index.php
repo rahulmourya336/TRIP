@@ -129,9 +129,7 @@ if(isset($_SESSION)){
 <body>
 <!-- Background Video-->
 <header class="heropanel--video" data-vide-bg="mp4: ./images/Travel_Video.mp4,  data-vide-options="posterType: png, loop: true, muted: true, position: 90% 20% style="z-index: 0!important;">
-    <div class="heropanel__content">
-        <h1><a rel="home">No Static Web Pages</a></h1>
-    </div>
+
 </header>
 <div class="signup__container">
     <div class="container__child signup__thumbnail">
