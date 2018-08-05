@@ -66,7 +66,11 @@ $TRIP_ADMIN = FALSE;
             padding: 0px 10px;
         }
         label.checkbox{
-            width: 400px !important;
+            width: 500px !important;
+        }
+        label.checkbox>span{
+            font-size: 0.2rem !important;
+            color: #868e96 !important;
         }
 
         @media screen and (max-height: 450px) {
@@ -240,6 +244,8 @@ $TRIP_ADMIN = FALSE;
                 style="margin:0 auto;margin-bottom: 30px" data-toggle="modal" data-target="#myModal" onclick="validateCheckboxEmpty()"><strong>+</strong> Add travellers
         </button>
     </div>
+
+    <div class="row col-md-12">
     <?php
     $select_travellers_sql = "SELECT  DISTINCT * FROM trip_traveller where t_id='$trip_id'";
         if ($result = mysqli_query($connection, $select_travellers_sql)) {
@@ -248,13 +254,14 @@ $TRIP_ADMIN = FALSE;
                     $user_id = $row['u_id'];
 
                     //    Fetch user name
-                    $user_name_sql = "select u_name from trip_user where u_id = '$user_id';";
-                    $user_name = mysqli_query($connection, $user_name_sql);
-                    $user_name = mysqli_fetch_assoc($user_name);
-                    $user_name = $user_name['u_name'];
+                    $user_name_sql = "select u_name, u_email from trip_user where u_id = '$user_id'";
+                    $user = mysqli_query($connection, $user_name_sql);
+                    $user = mysqli_fetch_assoc($user);
+                    $user_name = $user['u_name'];
+                    $user_email = $user['u_email'];
 
-                    echo "<div class='container small'>
-                <div class=\"alert alert-info col-md-4\">
+                    echo "<div class='small col-md-4'>
+                <div class=\"alert alert-info col-md-12\">
                   <strong>$user_name</strong> ";
                     if ($t_creator_id !== $user_id) {
                         echo "<a href='remove_traveller.php?t_id=$trip_id&id=$user_id'>
@@ -269,6 +276,7 @@ $TRIP_ADMIN = FALSE;
                         ";
                     }
                     echo " 
+ <h6 class='text-secondary text-right'>$user_email</h6>
                 </div>
                 </div> <!-- End of container-->
                 ";
@@ -279,6 +287,7 @@ $TRIP_ADMIN = FALSE;
         }
 
     ?>
+    </div>
 </div>
 
 <!-- Modal -->
@@ -314,7 +323,7 @@ $TRIP_ADMIN = FALSE;
                                 $trip_list = Array();
                                 $trip_traveller_list = Array();
 
-                                $select_query = "select u_id, u_name from trip_user";
+                                $select_query = "select u_id, u_name from trip_user ORDER by u_name ASC";
                                 if ($result = mysqli_query($connection, $select_query)) {
                                     if (mysqli_num_rows($result) > 0) {
                                         while ($row = mysqli_fetch_array($result)) {
@@ -336,15 +345,16 @@ $TRIP_ADMIN = FALSE;
                                 print_r($trip_list);
 
                                 foreach ($trip_list as $ts) {
-                                    $select_query = "select u_id, u_name from trip_user WHERE u_id = '$ts'";
+                                    $select_query = "select u_id, u_name, u_email from trip_user WHERE u_id = '$ts'";
                                     if ($result = mysqli_query($connection, $select_query)) {
                                         if (mysqli_num_rows($result) > 0) {
 
                                             while ($row = mysqli_fetch_array($result)) {
-                                                $trip_id = $row['u_id'];
-                                                $trip_name = $row['u_name'];
+                                                $traveller_id = $row['u_id'];
+                                                $traveller_name = $row['u_name'];
+                                                $traveller_email = $row['u_email'];
                                                 echo "
-                                   <option value='$trip_id'>$trip_name</option>
+                                   <option value='$traveller_id' title='$traveller_email'>$traveller_name </option>
                                    ";
                                             }
                                         }
@@ -397,6 +407,11 @@ $TRIP_ADMIN = FALSE;
   setTimeout(function () {
     $('#alert_message').modal('hide')
   }, 3000)
+
+//    popover
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
 </script>
 <script>
   $(document).ready(function () {

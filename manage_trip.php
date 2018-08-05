@@ -199,6 +199,14 @@ $trip_id = $_GET['t_id'];
         document.getElementById('expense_form').reset()
         return true
       }
+
+      function validateForm(){
+            x = document.getElementById("expense_amount").value
+        if(x.length > 10){
+                document.getElementById("amount_error").innerHTML = "Should be less than 10 digit"
+          return false
+        }
+      }
     </script>
 </head>
 <body>
@@ -368,7 +376,7 @@ $trip_id = $_GET['t_id'];
                             <label for="expense_name" class="col-sm-2 col-form-label">Name</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" id="expense_name" placeholder="Dinner" required
-                                       autofocus name="expense_name"/>
+                                       autofocus name="expense_name" maxlength="45"/>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -384,9 +392,10 @@ $trip_id = $_GET['t_id'];
                             <div class="col-sm-10">
                                 <input type="number" class="form-control" id="expense_amount" placeholder="2000"
                                        required name="expense_amount">
+                                <h6 id="amount_error" class="text-danger small"></h6>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn">Add Expense
+                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn" onclick="return validateForm()">Add Expense
                         </button>
                         <button type="submit" class="btn btn-success pull-right" id="update-expense-btn">Update Expense
                         </button>

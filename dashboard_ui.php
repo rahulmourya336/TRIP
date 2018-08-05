@@ -18,26 +18,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
     <style>
-        #addTrip {
-            background-color: steelblue;
-            width: 75%;
-            color: #333333;
-            height: 150px;
-            margin: 0 auto;
-            overflow: hidden;
-            padding: 10px 0;
-            align-items: center;
-            justify-content: space-around;
-            display: flex;
-            float: none;
-        }
-
         #trip_image {
             height: 150px;
             width: 300px;
         }
         label.checkbox{
             width: 400px !important;
+            margin-bottom: 0.2em!important;
         }
         .bg-white-text{
             color: #fff !important;
@@ -111,14 +98,14 @@
                         <label for="trip-name" class="col-sm-2 col-form-label">Trip Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="trip-name" placeholder="St. Lucia." required
-                                   autofocus name="trip-name"/>
+                                   autofocus name="trip-name" maxlength="45"/>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="trip-url" class="col-sm-2 col-form-label">Trip URL</label>
                         <div class="col-sm-10">
                             <input type="url" class="form-control" id="trip-url" placeholder="http://someurl.com"
-                                   required name="trip-url" oninput="showImages()">
+                                   required name="trip-url" oninput="showImages()" maxlength="400" />
                             <div id="unsplash_placeholder"></div>
                         </div>
 
@@ -159,15 +146,16 @@
 //                                TODO : Spit Sorted name to dropdown list
 
                                 $current_user_id = $_SESSION['current_user_id'];
-                                $select_query = "select u_id, u_name from trip_user WHERE u_id != '$current_user_id'";
+                                $select_query = "select u_id, u_name, u_email from trip_user WHERE u_id != '$current_user_id' ORDER by u_name ASC";
                                 if ($result = mysqli_query($connection, $select_query)) {
                                     if (mysqli_num_rows($result) > 0) {
 
                                         while ($row = mysqli_fetch_array($result)) {
-                                            $trip_id = $row['u_id'];
-                                            $trip_name = $row['u_name'];
+                                            $traveller_id = $row['u_id'];
+                                            $traveller_name = $row['u_name'];
+                                            $traveller_email = $row['u_email'];
                                             echo "
-                                <option value='$trip_id'>$trip_name</option>
+                                <option value='$traveller_id' title='$traveller_email'>$traveller_name</option>
                                 ";
                                         }
                                     }
