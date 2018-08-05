@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3cb6c2-a2d0-4c22-8b1d-12752f5fdc39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index_style.css" afterPath="$PROJECT_DIR$/css/index_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signin.php" afterPath="$PROJECT_DIR$/signin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_trip.php" afterPath="$PROJECT_DIR$/report_trip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,33 +21,34 @@
     <favorites_list name="TRIP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.86081696">
+    <splitter split-orientation="horizontal" split-proportion="0.8720666">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="report_trip.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/report_trip.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3024">
-                  <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+                <state relative-caret-position="6210">
+                  <caret line="345" column="100" lean-forward="false" selection-start-line="345" selection-start-column="100" selection-end-line="345" selection-end-column="100" />
                   <folding>
-                    <marker date="1533378676468" expanded="true" signature="5880:5921" ph="select t_nam... trip_list" />
-                    <marker date="1533378676468" expanded="true" signature="5880:5922" ph="select t_nam... trip_list" />
-                    <marker date="1533378676468" expanded="true" signature="6146:6227" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="6146:6229" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="6146:6230" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="6650:6711" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="6650:6714" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="7033:7059" ph="..." />
-                    <marker date="1533378676468" expanded="true" signature="7033:7144" ph="..." />
-                    <marker date="1533378676468" expanded="true" signature="7033:7274" ph="..." />
-                    <marker date="1533378676468" expanded="true" signature="7104:7111" ph="&amp;##8377;" />
-                    <marker date="1533378676468" expanded="true" signature="7196:7203" ph="&amp;##8377;" />
-                    <marker date="1533378676468" expanded="true" signature="7467:7508" ph="select * fro... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="7737:7801" ph="select count... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="7989:7996" ph="..." />
-                    <marker date="1533378676468" expanded="true" signature="8260:8325" ph="select disti... trip_expense_category" />
-                    <marker date="1533378676468" expanded="true" signature="10272:10334" ph="select sum(e... trip_expenese" />
-                    <marker date="1533378676468" expanded="true" signature="10780:10845" ph="select disti... trip_expense_category" />
+                    <marker date="1533455003531" expanded="true" signature="5880:5921" ph="select t_nam... trip_list" />
+                    <marker date="1533455003531" expanded="true" signature="5880:5922" ph="select t_nam... trip_list" />
+                    <marker date="1533455003531" expanded="true" signature="6146:6227" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="6146:6229" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="6146:6230" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="6650:6711" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="6650:6714" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="7033:7059" ph="..." />
+                    <marker date="1533455003531" expanded="true" signature="7033:7144" ph="..." />
+                    <marker date="1533455003531" expanded="true" signature="7033:7274" ph="..." />
+                    <marker date="1533455003531" expanded="true" signature="7104:7111" ph="&amp;##8377;" />
+                    <marker date="1533455003531" expanded="true" signature="7196:7203" ph="&amp;##8377;" />
+                    <marker date="1533455003531" expanded="true" signature="7467:7508" ph="select * fro... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="7737:7801" ph="select count... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="7989:7996" ph="..." />
+                    <marker date="1533455003531" expanded="true" signature="8260:8325" ph="select disti... trip_expense_category" />
+                    <marker date="1533455003531" expanded="true" signature="10382:10444" ph="select sum(e... trip_expenese" />
+                    <marker date="1533455003531" expanded="true" signature="10850:10915" ph="select disti... trip_expense_category" />
+                    <marker date="1533455003531" expanded="true" signature="12630:12635" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -82,35 +83,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dashboard.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
+                <state relative-caret-position="18">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding>
-                    <marker date="1533196539440" expanded="true" signature="421:545" ph="select * fro... trip_list" />
-                    <marker date="1533196539440" expanded="true" signature="955:1095" ph="select count... " />
-                    <marker date="1533196539440" expanded="true" signature="1385:1408" ph="SELECT * FRO... trip_list" />
-                    <marker date="1533196539440" expanded="true" signature="2133:2233" ph="select disti... trip_user" />
-                    <marker date="1533196539440" expanded="true" signature="2491:2508" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="2686:2918" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="2771:2823" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="2858:2903" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="2954:3073" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="3128:3878" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="3221:3337" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="3370:3871" ph="..." />
-                    <marker date="1533196539440" expanded="true" signature="3408:3612" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="421:545" ph="select * fro... trip_list" />
+                    <marker date="1533465240140" expanded="true" signature="955:1095" ph="select count... " />
+                    <marker date="1533465240140" expanded="true" signature="1385:1408" ph="SELECT * FRO... trip_list" />
+                    <marker date="1533465240140" expanded="true" signature="2133:2233" ph="select disti... trip_user" />
+                    <marker date="1533465240140" expanded="true" signature="2491:2508" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="2686:2918" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="2771:2823" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="2858:2903" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="2954:3073" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="3128:3878" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="3221:3337" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="3370:3871" ph="..." />
+                    <marker date="1533465240140" expanded="true" signature="3408:3612" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="signin.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="signin.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/signin.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="142" column="44" lean-forward="false" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+                <state relative-caret-position="126">
+                  <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
                   <folding />
                 </state>
               </provider>
@@ -131,21 +132,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/logout.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+                <state relative-caret-position="2412">
+                  <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -154,9 +145,21 @@
           <file leaf-file-name="index_style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index_style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+                <state relative-caret-position="198">
+                  <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="is_creator.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/is_creator.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                  <folding>
+                    <marker date="1533198722274" expanded="true" signature="226:372" ph="select disti... trip_user" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -193,7 +196,7 @@
           <file leaf-file-name="manage_travellers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manage_travellers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="537">
+                <state relative-caret-position="483">
                   <caret line="177" column="52" lean-forward="false" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
                   <folding>
                     <marker date="1533378603914" expanded="true" signature="7467:7534" ph="SELECT DISTI... trip_traveller" />
@@ -232,7 +235,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>total trip expense f</find>
       <find>&lt;a href</find>
       <find>times</find>
       <find>add trip</find>
@@ -262,6 +264,7 @@
       <find>mobileValidationMessage</find>
       <find>include</find>
       <find>action</find>
+      <find>single_list</find>
     </findStrings>
     <replaceStrings>
       <replace>signin</replace>
@@ -280,6 +283,7 @@
       <replace>$individual_expense_JSON</replace>
       <replace>user_name</replace>
       <replace>$select_creator_id</replace>
+      <replace>total_list</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\RISE\TRIP</dir>
@@ -326,7 +330,6 @@
         <option value="$PROJECT_DIR$/total_expense_JSON.php" />
         <option value="$PROJECT_DIR$/emmet.html" />
         <option value="$PROJECT_DIR$/head_assets.html" />
-        <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/add_expense.php" />
         <option value="$PROJECT_DIR$/add_travellers.php" />
         <option value="$PROJECT_DIR$/remove_traveller.php" />
@@ -335,11 +338,12 @@
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/manage_travellers.php" />
         <option value="$PROJECT_DIR$/manage_trip.php" />
-        <option value="$PROJECT_DIR$/report_trip.php" />
         <option value="$PROJECT_DIR$/dummy_signup.php" />
         <option value="$PROJECT_DIR$/css/index_style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/report_trip.php" />
         <option value="$PROJECT_DIR$/signin.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
       </list>
     </option>
   </component>
@@ -371,9 +375,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,6 +392,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,7 +404,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="PHP&#10;HTML" />
-    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/index.php&#10;repot&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;manage_tr&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;manage&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;report&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;dash&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;logout&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/logout.php&#10;sig&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;manage_&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;dashbo&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;update&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/update_trip.php&#10;add_trip&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;mana&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;signin&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;remov&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/remove_trip.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard.php&#10;manage_t&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;add&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;add_e&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_expense.php&#10;emme&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.html&#10;repo&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;update_&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/update_trip.php&#10;remove&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/remove_trip.php&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;manag&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;dashb&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;script&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/script.php&#10;dashboar&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard.php&#10;emmet&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.php&#10;ind&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/index.php&#10;c&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/check_session.php&#10;sign&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;add_t&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;emm&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.html&#10;connection&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/connection.php&#10;modul&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/module_trip_name_list.php&#10;login&#9;null&#9;null&#10;trip&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;checkse&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/check_session.php&#10;loout&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="t_id&#9;null&#9;null&#10;report&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/index.php&#10;repot&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;manage_tr&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;manage&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;dash&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;logout&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/logout.php&#10;sig&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;manage_&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;dashbo&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;update&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/update_trip.php&#10;add_trip&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;mana&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;signin&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;remov&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/remove_trip.php&#10;das&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard.php&#10;manage_t&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_travellers.php&#10;add&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;add_e&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_expense.php&#10;emme&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.html&#10;repo&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/report_trip.php&#10;update_&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/update_trip.php&#10;remove&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/remove_trip.php&#10;ma&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;manag&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/manage_trip.php&#10;dashb&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard_ui.php&#10;script&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/script.php&#10;dashboar&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/dashboard.php&#10;emmet&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.php&#10;ind&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/index.php&#10;c&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/check_session.php&#10;sign&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/signin.php&#10;add_t&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;emm&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/emmet.html&#10;connection&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/connection.php&#10;modul&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/module_trip_name_list.php&#10;login&#9;null&#9;null&#10;trip&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/add_trip.php&#10;checkse&#9;FILE&#9;file://C:/xampp/htdocs/RISE/TRIP/check_session.php&#10;loout&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -562,7 +566,8 @@
       <workItem from="1533223613154" duration="10523000" />
       <workItem from="1533271777211" duration="17903000" />
       <workItem from="1533365201841" duration="15997000" />
-      <workItem from="1533446452728" duration="277000" />
+      <workItem from="1533446452728" duration="11085000" />
+      <workItem from="1533469291285" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Minor --fix -0&quot;">
       <created>1531461729288</created>
@@ -746,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533413001631</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="&quot;Add Background -OK&quot;">
+      <created>1533446829618</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1533446829618</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340678000" />
+    <option name="totallyTimeSpent" value="351494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,7 +838,8 @@
     <MESSAGE value="&quot;Add manage traveller -OK&quot;" />
     <MESSAGE value="&quot;Add Session Check -OK&quot;" />
     <MESSAGE value="&quot;Add Validation -OK&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add Validation -OK&quot;" />
+    <MESSAGE value="&quot;Add Background -OK&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add Background -OK&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1031,13 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/is_creator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/total_expense_JSON.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1119,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,34 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="178" column="9" lean-forward="false" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_travellers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="177" column="52" lean-forward="false" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
-          <folding>
-            <marker date="1533378603914" expanded="true" signature="7467:7534" ph="SELECT DISTI... trip_traveller" />
-            <marker date="1533378603914" expanded="true" signature="7740:7798" ph="select t_cre... trip_list" />
-            <marker date="1533378603914" expanded="true" signature="8000:8042" ph="select t_nam... trip_list" />
-            <marker date="1533378603914" expanded="true" signature="8273:8412" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="8819:8826" ph="SELECT * FRO... trip_travellers" />
-            <marker date="1533378603914" expanded="true" signature="8819:8869" ph="SELECT * FRO... trip_travellers" />
-            <marker date="1533378603914" expanded="true" signature="8819:8879" ph="SELECT DISTI... trip_traveller" />
-            <marker date="1533378603914" expanded="true" signature="9192:9244" ph="select u_nam... trip_user" />
-            <marker date="1533378603914" expanded="true" signature="9471:10210" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9499:10184" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9557:9604" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9557:10161" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9748:9920" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9807:9897" ph="..." />
-            <marker date="1533378603914" expanded="true" signature="9856:9863" ph="×" />
-            <marker date="1533378603914" expanded="true" signature="12196:12230" ph="select u_id,... trip_user" />
-            <marker date="1533378603914" expanded="true" signature="12736:12779" ph="select u_id trip_traveller" />
-            <marker date="1533378603914" expanded="true" signature="13574:13627" ph="select u_id,... trip_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,33 +1172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report_trip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding>
-            <marker date="1533378676468" expanded="true" signature="5880:5921" ph="select t_nam... trip_list" />
-            <marker date="1533378676468" expanded="true" signature="5880:5922" ph="select t_nam... trip_list" />
-            <marker date="1533378676468" expanded="true" signature="6146:6227" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="6146:6229" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="6146:6230" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="6650:6711" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="6650:6714" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="7033:7059" ph="..." />
-            <marker date="1533378676468" expanded="true" signature="7033:7144" ph="..." />
-            <marker date="1533378676468" expanded="true" signature="7033:7274" ph="..." />
-            <marker date="1533378676468" expanded="true" signature="7104:7111" ph="&amp;##8377;" />
-            <marker date="1533378676468" expanded="true" signature="7196:7203" ph="&amp;##8377;" />
-            <marker date="1533378676468" expanded="true" signature="7467:7508" ph="select * fro... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="7737:7801" ph="select count... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="7989:7996" ph="..." />
-            <marker date="1533378676468" expanded="true" signature="8260:8325" ph="select disti... trip_expense_category" />
-            <marker date="1533378676468" expanded="true" signature="10272:10334" ph="select sum(e... trip_expenese" />
-            <marker date="1533378676468" expanded="true" signature="10780:10845" ph="select disti... trip_expense_category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dummy_signup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1246,49 +1196,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.php">
+    <entry file="file://$PROJECT_DIR$/report_trip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="6210">
+          <caret line="345" column="100" lean-forward="false" selection-start-line="345" selection-start-column="100" selection-end-line="345" selection-end-column="100" />
           <folding>
-            <marker date="1533196539440" expanded="true" signature="421:545" ph="select * fro... trip_list" />
-            <marker date="1533196539440" expanded="true" signature="955:1095" ph="select count... " />
-            <marker date="1533196539440" expanded="true" signature="1385:1408" ph="SELECT * FRO... trip_list" />
-            <marker date="1533196539440" expanded="true" signature="2133:2233" ph="select disti... trip_user" />
-            <marker date="1533196539440" expanded="true" signature="2491:2508" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="2686:2918" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="2771:2823" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="2858:2903" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="2954:3073" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="3128:3878" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="3221:3337" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="3370:3871" ph="..." />
-            <marker date="1533196539440" expanded="true" signature="3408:3612" ph="..." />
+            <marker date="1533455003531" expanded="true" signature="5880:5921" ph="select t_nam... trip_list" />
+            <marker date="1533455003531" expanded="true" signature="5880:5922" ph="select t_nam... trip_list" />
+            <marker date="1533455003531" expanded="true" signature="6146:6227" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="6146:6229" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="6146:6230" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="6650:6711" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="6650:6714" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="7033:7059" ph="..." />
+            <marker date="1533455003531" expanded="true" signature="7033:7144" ph="..." />
+            <marker date="1533455003531" expanded="true" signature="7033:7274" ph="..." />
+            <marker date="1533455003531" expanded="true" signature="7104:7111" ph="&amp;##8377;" />
+            <marker date="1533455003531" expanded="true" signature="7196:7203" ph="&amp;##8377;" />
+            <marker date="1533455003531" expanded="true" signature="7467:7508" ph="select * fro... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="7737:7801" ph="select count... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="7989:7996" ph="..." />
+            <marker date="1533455003531" expanded="true" signature="8260:8325" ph="select disti... trip_expense_category" />
+            <marker date="1533455003531" expanded="true" signature="10382:10444" ph="select sum(e... trip_expenese" />
+            <marker date="1533455003531" expanded="true" signature="10850:10915" ph="select disti... trip_expense_category" />
+            <marker date="1533455003531" expanded="true" signature="12630:12635" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index_style.css">
+    <entry file="file://$PROJECT_DIR$/signin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="126">
+          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="2412">
+          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signin.php">
+    <entry file="file://$PROJECT_DIR$/css/index_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="142" column="44" lean-forward="false" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+        <state relative-caret-position="198">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/is_creator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <marker date="1533198722274" expanded="true" signature="226:372" ph="select disti... trip_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1533465240140" expanded="true" signature="421:545" ph="select * fro... trip_list" />
+            <marker date="1533465240140" expanded="true" signature="955:1095" ph="select count... " />
+            <marker date="1533465240140" expanded="true" signature="1385:1408" ph="SELECT * FRO... trip_list" />
+            <marker date="1533465240140" expanded="true" signature="2133:2233" ph="select disti... trip_user" />
+            <marker date="1533465240140" expanded="true" signature="2491:2508" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="2686:2918" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="2771:2823" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="2858:2903" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="2954:3073" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="3128:3878" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="3221:3337" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="3370:3871" ph="..." />
+            <marker date="1533465240140" expanded="true" signature="3408:3612" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_travellers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="177" column="52" lean-forward="false" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
+          <folding>
+            <marker date="1533378603914" expanded="true" signature="7467:7534" ph="SELECT DISTI... trip_traveller" />
+            <marker date="1533378603914" expanded="true" signature="7740:7798" ph="select t_cre... trip_list" />
+            <marker date="1533378603914" expanded="true" signature="8000:8042" ph="select t_nam... trip_list" />
+            <marker date="1533378603914" expanded="true" signature="8273:8412" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="8819:8826" ph="SELECT * FRO... trip_travellers" />
+            <marker date="1533378603914" expanded="true" signature="8819:8869" ph="SELECT * FRO... trip_travellers" />
+            <marker date="1533378603914" expanded="true" signature="8819:8879" ph="SELECT DISTI... trip_traveller" />
+            <marker date="1533378603914" expanded="true" signature="9192:9244" ph="select u_nam... trip_user" />
+            <marker date="1533378603914" expanded="true" signature="9471:10210" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9499:10184" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9557:9604" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9557:10161" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9748:9920" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9807:9897" ph="..." />
+            <marker date="1533378603914" expanded="true" signature="9856:9863" ph="×" />
+            <marker date="1533378603914" expanded="true" signature="12196:12230" ph="select u_id,... trip_user" />
+            <marker date="1533378603914" expanded="true" signature="12736:12779" ph="select u_id trip_traveller" />
+            <marker date="1533378603914" expanded="true" signature="13574:13627" ph="select u_id,... trip_user" />
+          </folding>
         </state>
       </provider>
     </entry>

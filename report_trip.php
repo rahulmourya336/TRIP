@@ -279,19 +279,12 @@ include("check_session.php")
                 echo "<script>console.log('%c Category error! ', 'background: white; color: Green');</script>";
                 exit();
             }
-
-
             $expense_JSON[] = array('label' => $cat_name, 'value' => $expense_amount);
-
         }
-/*
-        $array_length = count($expense_JSON);
-        for ($i = 0; $i < $array_length -1; $i++) {
-            for ($j = 1 ; $j < $array_length; $j++) {
 
-                echo $expense_JSON[$i]['label'];
-                echo $expense_JSON[$j]['label'];
-                echo "<br />";
+        $array_length = count($expense_JSON);
+        for ($i = 0; $i < $array_length - 1; $i++) {
+            for ($j = 1; $j < $array_length; $j++) {
                 if ($expense_JSON[$i]['label'] == $expense_JSON[$j]['label']) {
                     $sum = $expense_JSON[$i]['value'] + $expense_JSON[$j]['value'];
                     $unique_list_JSON[$i] = array('label' => $expense_JSON[$i]['label'], 'value' => $sum);
@@ -300,16 +293,20 @@ include("check_session.php")
                 }
             }
 
-        }*/
-        print_r(json_encode($expense_JSON));
-        echo "<br /><br /><br />";
-        print_r(json_encode($unique_list_JSON));
-//        exit();
-//        end of unique list json
-//        $expense_JSON = json_encode($expense_JSON);
+        }
+//        Stack overflow solution
+        $individualSum = array_reduce($expense_JSON, function ($a, $b) {
+            isset($a[$b['label']]) ? $a[$b['label']]['value'] += $b['value'] : $a[$b['label']] = $b;
+            return $a;
+        });
+//        End of Stack overflow code
+        $total_list = Array();
+        foreach ($individualSum as $select) {
+            $total_list[] = array('label' => $select['label'], 'value' => $select['value']);
+        }
+        $total_list = json_encode($total_list);
+        echo "<script>setJSON_total($total_list)</script>";
 
-        $unique_list_JSON = json_encode($unique_list_JSON);
-        echo "<script>setJSON_total($unique_list_JSON)</script>";
     } else {
         echo "<span class='text-secondary'>Please add expenses to view report.</span>";
         exit();
@@ -321,8 +318,8 @@ include("check_session.php")
      *
      */
 
-    $select_individual_expense_sql = "select * from trip_expenese where t_id  = $trip_id and u_id = $current_user_id;";
     $individual_expense_JSON = Array();
+    $select_individual_expense_sql = "select * from trip_expenese where t_id  = $trip_id and u_id = $current_user_id;";
     $result = mysqli_query($connection, $select_individual_expense_sql);
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_array($result)) {
@@ -344,26 +341,20 @@ include("check_session.php")
             $individual_expense_JSON[] = array('label' => $cat_name, 'value' => $expense_amount);
         }
 
+//        Stack overflow solution
+        $individualSum = array_reduce($individual_expense_JSON, function ($a, $b) {
+            isset($a[$b['label']]) ? $a[$b['label']]['value'] += $b['value'] : $a[$b['label']] = $b;
+            return $a;
+        });
+//        End of Stack overflow code
+        $single_list = Array();
+        foreach ($individualSum as $select) {
+            $single_list[] = array('label' => $select['label'], 'value' => $select['value']);
+        }
 
-       /* $array_length = count($individual_expense_JSON);
-        for($i=0; $i < $array_length - 1; $i++ ){
-            for($j=$i + 1; $j < $array_length ; $j++ ){
-                if( $individual_expense_JSON[$i]['label'] ==  $individual_expense_JSON[$j]['label']){
-                    $sum =  $individual_expense_JSON[$i]['value'] +  $individual_expense_JSON[$j]['value'];
-                    $single_list_JSON[$i] = array('label' =>  $individual_expense_JSON[$i]['label'], 'value' => $sum);
-                }
-                else{
-                    $single_list_JSON[$i] = array('label' =>  $individual_expense_JSON[$i]['label'], 'value' =>  $individual_expense_JSON[$i]['value']);
-                }
-            }
-
-        }*/
-
-        $single_list_JSON = json_encode($single_list_JSON);
-        //exit();
-        echo "<script>setJSON_individual($single_list_JSON)</script>";
-    }
-    else{
+        $single_list = json_encode($single_list);
+        echo "<script>setJSON_individual($single_list)</script>";
+    } else {
 
     }
 
