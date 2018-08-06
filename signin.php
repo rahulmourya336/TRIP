@@ -114,7 +114,7 @@ session_start();
 
     <div class="container__child signin__thumbnail">
         <div class="thumbnail__content text-center">
-            <h1 class="heading--primary">Welcome to TRIP</h1>
+            <h1 class="heading--primary">Welcome to TRIP<span class="text-warning">P.</span></h1>
             <h2 class="heading--secondary">Travel Expense Manager</h2>
         </div>
         <div class="signin__overlay"></div>

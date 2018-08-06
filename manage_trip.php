@@ -239,7 +239,10 @@ $trip_id = $_GET['t_id'];
         </ul>
         <ul class="navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link bg-white-text" href="logout.php"><span class="bg-text-underline"><?php echo $user . '  ' ?></span>logout</a>
+                <a class="nav-link bg-white-text "><?php echo $user.'  ' ?></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link bg-white-text" href="logout.php"><span class="bg-text-underline">logout</a>
             </li>
         </ul>
 
