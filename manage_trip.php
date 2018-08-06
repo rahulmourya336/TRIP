@@ -207,6 +207,23 @@ $trip_id = $_GET['t_id'];
           return false
         }
       }
+
+      function validateDate () {
+        start_date = document.getElementById('trip-starting-date').value
+        end_date = document.getElementById('trip-ending-date').value
+        dateErrorBox = document.getElementById('dateErrorMessage')
+
+        if (start_date > end_date) {
+          console.log("error")
+          dateErrorBox.innerHTML = 'Invalid Date'
+          return false
+        }
+        else {
+          console.log("Not error")
+          dateErrorBox.innerHTML = ''
+          return true
+        }
+      }
     </script>
 </head>
 <body>
@@ -282,6 +299,14 @@ $trip_id = $_GET['t_id'];
         </div>
         <!--        iterate this card for new expense -->
         <?php
+//        Get trip start and end date
+        $select_expense_date_sql = "select t_start_date, t_end_date from trip_list where t_id='$trip_id'";
+        $date_result = mysqli_query($connection, $select_expense_date_sql);
+        $date_result = mysqli_fetch_assoc($date_result);
+        $start_date  = $date_result['t_start_date'];
+        $end_date    = $date_result['t_end_date'];
+
+
         include('connection.php');
         $trip_id = $_GET['t_id'];
         $current_user_id = $_SESSION['current_user_id'];
@@ -388,6 +413,7 @@ $trip_id = $_GET['t_id'];
                                 <input type="date" class="form-control" id="expense_date"
                                        placeholder="Select Trip Starting Date" required data-date-format="YYYY MM DD"
                                        value="2018-08-09" name="expense_date">
+                                <div id="dateErrorMessage" class="text-danger"></div>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -398,7 +424,7 @@ $trip_id = $_GET['t_id'];
                                 <h6 id="amount_error" class="text-danger small"></h6>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn" onclick="return validateForm()">Add Expense
+                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn" onclick="return validateForm(<?=$start_date ?>, <?=$end_date ?>)">Add Expense
                         </button>
                         <button type="submit" class="btn btn-success pull-right" id="update-expense-btn">Update Expense
                         </button>

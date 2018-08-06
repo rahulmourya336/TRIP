@@ -124,7 +124,10 @@
                             <input type="date" class="form-control" id="trip-ending-date"
                                    placeholder="Select Trip Ending Date" required data-date-format="DD MMMM YYYY"
                                    value="2018-08-09" name="trip-ending-date">
+
+                            <div id="dateErrorMessage" class="text-danger"></div>
                         </div>
+
                     </div>
                     <div class="form-group row" id="member_list">
                         <label for="trip-member" class="col-sm-2 col-form-label">Select Members</label>
@@ -170,10 +173,10 @@
 
                     </div>
                     <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn"
-                            onclick="checkCheckboxStatus();triggerAddTrip()" onclose="checkCheckboxStatus()">Add Trip
+                            onclick="return validateDate();checkCheckboxStatus();triggerAddTrip();" onclose="checkCheckboxStatus()">Add Trip
                     </button>
                     <button type="submit" class="btn btn-success pull-right" id="update-trip-btn"
-                            onclick="checkCheckboxStatus();triggerUpdateTrip()" >Update Trip
+                            onclick="return validateDate();checkCheckboxStatus();triggerUpdateTrip();" onsubmit="return validateDate();" >Update Trip
                     </button>
 
                 </form>
@@ -339,6 +342,25 @@
     }
     return;
   }
+
+  function validateDate () {
+    start_date = document.getElementById('trip-starting-date').value
+    end_date = document.getElementById('trip-ending-date').value
+    dateErrorBox = document.getElementById('dateErrorMessage')
+
+    if (start_date > end_date) {
+      console.log("error")
+      dateErrorBox.innerHTML = 'Invalid Date'
+      return false
+    }
+    else {
+      console.log("Not error")
+      dateErrorBox.innerHTML = ''
+      return true
+    }
+  }
+
+
   function showImages () {
   //    var a = ''
   //    a += document.getElementById('trip-url').value
