@@ -5,10 +5,1305 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3cb6c2-a2d0-4c22-8b1d-12752f5fdc39" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/500px.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/accusoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/adn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/adversal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/algolia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/amilia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/angellist.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/angrycreative.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/app-store.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/apper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/audible.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/avianex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/aviato.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/aws.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bandcamp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/behance-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/behance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bimobject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bitbucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bitcoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/black-tie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/blackberry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/blogger-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/bluetooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/btc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/buysellads.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-amex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-discover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cc-visa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/centercode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/chrome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cloudscale.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cloudsmith.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cloudversify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/codepen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/codiepie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/connectdevelop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/contao.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cpanel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-by.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-nc-eu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-nc-jp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-nc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-nd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-pd-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-pd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-remix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-sa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-sampling-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-sampling.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons-share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/creative-commons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/css3-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/css3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/cuttlefish.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/d-and-d.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dashcube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/delicious.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/deploydog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/deskpro.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/deviantart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/digg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/digital-ocean.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/discord.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/discourse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dochub.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/docker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/draft2digital.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dribbble-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dribbble.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dropbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/drupal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/dyalog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/earlybirds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ebay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/edge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/elementor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ember.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/empire.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/envira.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/erlang.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ethereum.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/etsy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/expeditedssl.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/facebook-f.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/facebook-messenger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/facebook-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/facebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/firefox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/first-order-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/first-order.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/firstdraft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/flickr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/flipboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fly.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/font-awesome-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/font-awesome-flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/font-awesome-logo-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/font-awesome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fonticons-fi.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fonticons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fort-awesome-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fort-awesome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/forumbee.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/foursquare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/free-code-camp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/freebsd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/fulcrum.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/galactic-republic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/galactic-senate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/get-pocket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gg-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/git-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/git.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/github-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/github-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/github.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gitkraken.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gitlab.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/glide-g.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/glide.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gofore.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/goodreads-g.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/goodreads.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-drive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-plus-g.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-plus-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google-wallet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/google.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gratipay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/grav.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gripfire.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/grunt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/gulp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hacker-news-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hacker-news.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hackerrank.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hips.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hire-a-helper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hooli.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hornbill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hotjar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/houzz.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/html5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/hubspot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/imdb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/instagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/internet-explorer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ioxhost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/itunes-note.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/itunes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/java.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/jedi-order.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/jenkins.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/joget.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/joomla.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/js-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/js.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/jsfiddle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/kaggle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/keybase.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/keycdn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/kickstarter-k.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/kickstarter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/korvue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/laravel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/lastfm-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/lastfm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/leanpub.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/less.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/linkedin-in.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/linkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/linode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/linux.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/lyft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/magento.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mailchimp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mandalorian.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/markdown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mastodon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/maxcdn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/medapps.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/medium-m.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/medrt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/meetup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/megaport.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/microsoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mixcloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/mizuni.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/modx.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/monero.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/napster.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/neos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/nimblr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/nintendo-switch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/node-js.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/node.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/npm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ns8.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/nutritionix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/odnoklassniki-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/odnoklassniki.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/old-republic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/opencart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/openid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/opera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/optin-monster.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/osi.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/page4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pagelines.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/palfed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/patreon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/periscope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/phabricator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/phoenix-framework.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/phoenix-squadron.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/php.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pied-piper-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pied-piper-hat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pied-piper-pp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pied-piper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pinterest-p.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pinterest-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pinterest.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/playstation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/product-hunt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/pushed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/python.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/qq.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/quinscape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/quora.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/r-project.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ravelry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/react.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/readme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/rebel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/red-river.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/reddit-alien.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/reddit-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/reddit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/rendact.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/renren.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/replyd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/researchgate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/resolving.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/rev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/rocketchat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/rockrms.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/safari.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/schlix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/scribd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/searchengin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sellcast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sellsy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/servicestack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/shirtsinbulk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/shopware.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/simplybuilt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sistrix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sith.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/skyatlas.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/skype.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/slack-hash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/slack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/slideshare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/snapchat-ghost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/snapchat-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/snapchat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/soundcloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/speakap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/spotify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/squarespace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stack-exchange.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stack-overflow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/staylinked.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/steam-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/steam-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/steam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sticker-mule.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/strava.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stripe-s.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stripe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/studiovinari.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stumbleupon-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/stumbleupon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/superpowers.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/supple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/teamspeak.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/telegram-plane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/telegram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/tencent-weibo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/themeco.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/themeisle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/trade-federation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/trello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/tripadvisor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/tumblr-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/tumblr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/twitch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/twitter-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/typo3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/uber.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/uikit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/uniregistry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/untappd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/usb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/ussunnah.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vaadin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/viacoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/viadeo-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/viadeo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/viber.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vimeo-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vimeo-v.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vimeo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vine.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vnv.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/vuejs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/weebly.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/weibo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/weixin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/whatsapp-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/whatsapp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/whmcs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wikipedia-w.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/windows.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wix.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wolf-pack-battalion.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wordpress-simple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wordpress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wpbeginner.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wpexplorer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/wpforms.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/xbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/xing-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/xing.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/y-combinator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/yahoo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/yandex-international.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/yandex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/yelp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/yoast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/youtube-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/youtube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/zhihu.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/address-book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/address-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/angry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/arrow-alt-circle-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/arrow-alt-circle-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/arrow-alt-circle-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/arrow-alt-circle-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/bell-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/bell.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/building.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar-times.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/caret-square-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/caret-square-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/caret-square-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/caret-square-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/chart-bar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/check-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/check-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/clipboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/clone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/closed-captioning.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/comment-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/comment-dots.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/comment.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/comments.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/copy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/copyright.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/credit-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/dizzy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/dot-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/edit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/envelope-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/envelope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/eye-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/eye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-audio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-code.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-excel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-image.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-pdf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-powerpoint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file-word.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/file.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/flushed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/folder-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/font-awesome-logo-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/frown-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/frown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/futbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/gem.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grimace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-beam-sweat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-hearts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-squint-tears.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-stars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-tears.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-tongue-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-tongue-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-tongue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/grin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-lizard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-paper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-peace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-point-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-point-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-point-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-point-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-pointer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-rock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-scissors.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hand-spock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/handshake.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hdd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hospital.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/hourglass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/id-badge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/id-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/image.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/images.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/kiss-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/kiss-wink-heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/kiss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/laugh-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/laugh-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/laugh-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/laugh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/lemon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/life-ring.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/lightbulb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/list-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/meh-blank.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/meh-rolling-eyes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/meh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/minus-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/money-bill-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/moon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/newspaper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/object-group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/object-ungroup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/paper-plane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/pause-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/play-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/plus-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/question-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/registered.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/sad-cry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/sad-tear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/save.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/share-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/smile-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/smile-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/smile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/snowflake.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/star-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/star.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/sticky-note.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/stop-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/sun.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/surprise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/thumbs-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/thumbs-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/times-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/tired.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/trash-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/user-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/user.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/window-close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/window-maximize.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/window-minimize.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/regular/window-restore.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/address-book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/address-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/adjust.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/air-freshener.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/align-center.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/align-justify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/align-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/align-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/allergies.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ambulance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/american-sign-language-interpreting.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/anchor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-double-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-double-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-double-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-double-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angle-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/angry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/apple-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/archway.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-alt-circle-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-alt-circle-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-alt-circle-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-alt-circle-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-circle-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-circle-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-circle-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-circle-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrow-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrows-alt-h.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrows-alt-v.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/arrows-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/assistive-listening-systems.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/asterisk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/at.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/atlas.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/atom.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/audio-description.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/award.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/backspace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/backward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/balance-scale.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ban.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/band-aid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/barcode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/baseball-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/basketball-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bath.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/battery-empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/battery-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/battery-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/battery-quarter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/battery-three-quarters.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/beer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bell-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bell.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bezier-curve.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bicycle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/binoculars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/birthday-cake.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/blender.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/blind.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bolt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bomb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bong.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/book-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/book-reader.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bowling-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/box-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/box.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/boxes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/braille.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/brain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/briefcase-medical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/briefcase.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/broadcast-tower.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/broom.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/brush.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bug.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/building.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bullhorn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bullseye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/burn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bus-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/bus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calculator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar-times.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/camera-retro.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/camera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cannabis.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/capsules.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/car-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/car-battery.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/car-crash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/car-side.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/car.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-square-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-square-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-square-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-square-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/caret-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cart-arrow-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cart-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/certificate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chalkboard-teacher.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chalkboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/charging-station.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chart-area.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chart-bar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chart-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chart-pie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/check-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/check-double.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/check-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-bishop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-board.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-king.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-knight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-pawn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-queen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess-rook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chess.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-circle-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-circle-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-circle-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-circle-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/chevron-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/child.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/church.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/circle-notch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/clipboard-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/clipboard-list.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/clipboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/clone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/closed-captioning.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cloud-download-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cloud-upload-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cocktail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/code-branch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/code.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/coffee.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cogs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/coins.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/columns.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/comment-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/comment-dots.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/comment-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/comment.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/comments.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/compact-disc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/compress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/concierge-bell.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cookie-bite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cookie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/copy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/copyright.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/couch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/credit-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/crop-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/crop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/crosshairs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/crow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/crown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cubes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/cut.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/database.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/deaf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/desktop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/diagnoses.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-five.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-four.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-one.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-six.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-three.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice-two.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/digital-tachograph.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/directions.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/divide.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dizzy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dna.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dollar-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dolly-flatbed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dolly.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/donate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/door-closed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/door-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dot-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dove.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/drafting-compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/draw-polygon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/drum-steelpan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/drum.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/dumbbell.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/edit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/eject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ellipsis-h.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ellipsis-v.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/envelope-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/envelope-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/envelope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/equals.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/eraser.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/euro-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/exchange-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/exclamation-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/exclamation-triangle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/exclamation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/expand-arrows-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/expand.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/external-link-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/external-link-square-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/eye-dropper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/eye-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/eye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fast-backward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fast-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fax.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/feather-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/feather.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fighter-jet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-audio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-code.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-contract.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-excel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-export.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-image.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-import.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-invoice-dollar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-invoice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-medical-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-medical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-pdf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-powerpoint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-prescription.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-signature.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file-word.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/file.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fill-drip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/film.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/filter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fingerprint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fire-extinguisher.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fire.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/first-aid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/fish.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/flag-checkered.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/flag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/flask.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/flushed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/folder-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/font-awesome-logo-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/football-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/frog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/frown-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/frown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/futbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/gamepad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/gas-pump.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/gavel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/gem.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/genderless.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/gift.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/glass-martini-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/glass-martini.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/glasses.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/globe-africa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/globe-americas.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/globe-asia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/globe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/golf-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/graduation-cap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/greater-than-equal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/greater-than.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grimace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-beam-sweat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-hearts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-squint-tears.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-stars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-tears.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-tongue-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-tongue-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-tongue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grip-horizontal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/grip-vertical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/h-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-holding-heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-holding-usd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-holding.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-lizard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-paper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-peace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-point-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-point-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-point-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-point-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-pointer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-rock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-scissors.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hand-spock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hands-helping.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hands.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/handshake.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hashtag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hdd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/heading.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/headphones-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/headphones.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/headset.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/heartbeat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/helicopter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/highlighter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/history.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hockey-puck.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hospital-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hospital-symbol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hospital.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hot-tub.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hotel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hourglass-end.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hourglass-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hourglass-start.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/hourglass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/i-cursor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/id-badge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/id-card-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/id-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/image.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/images.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/inbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/indent.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/industry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/infinity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/info-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/info.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/joint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/key.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/kiss-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/kiss-wink-heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/kiss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/kiwi-bird.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/language.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laptop-code.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laptop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laugh-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laugh-squint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laugh-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/laugh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/layer-group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/leaf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/lemon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/less-than-equal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/less-than.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/level-down-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/level-up-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/life-ring.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/lightbulb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/lira-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/list-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/list-ol.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/list-ul.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/list.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/location-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/lock-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/long-arrow-alt-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/long-arrow-alt-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/long-arrow-alt-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/long-arrow-alt-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/low-vision.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/luggage-cart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/magic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/magnet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/male.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-marked-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-marked.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-marker-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-pin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map-signs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mars-double.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mars-stroke-h.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mars-stroke-v.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mars-stroke.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/medal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/medkit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/meh-blank.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/meh-rolling-eyes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/meh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/memory.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mercury.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microchip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microphone-alt-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microphone-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microphone-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/microscope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/minus-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/minus-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mobile-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mobile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-bill-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-bill-wave-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-bill-wave.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-bill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-check-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/money-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/monument.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/moon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mortar-pestle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/motorcycle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/mouse-pointer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/music.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/neuter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/newspaper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/not-equal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/notes-medical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/object-group.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/object-ungroup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/oil-can.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/outdent.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paint-brush.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paint-roller.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/palette.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pallet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paper-plane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paperclip.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/parachute-box.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paragraph.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/parking.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/passport.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paste.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pause-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/paw.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pen-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pen-fancy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pen-nib.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pen-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pencil-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pencil-ruler.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/people-carry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/percent.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/percentage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/phone-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/phone-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/phone-volume.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/phone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/piggy-bank.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pills.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plane-arrival.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plane-departure.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/play-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plug.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plus-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plus-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/podcast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/poo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/poop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/portrait.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/pound-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/power-off.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/prescription-bottle-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/prescription-bottle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/prescription.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/print.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/procedures.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/project-diagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/puzzle-piece.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/qrcode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/question-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/question.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/quidditch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/quote-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/quote-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/random.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/receipt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/recycle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/redo-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/redo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/registered.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/reply-all.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/reply.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/retweet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ribbon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/road.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/robot.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/rocket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/route.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/rss-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/rss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ruble-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ruler-combined.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ruler-horizontal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ruler-vertical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ruler.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/rupee-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sad-cry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sad-tear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/save.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/school.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/screwdriver.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/search-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/search-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/seedling.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/server.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shapes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/share-alt-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/share-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/share-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shekel-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shield-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ship.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shipping-fast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shoe-prints.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shopping-bag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shopping-basket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shopping-cart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shower.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/shuttle-van.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sign-in-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sign-language.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sign-out-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/signal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/signature.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sitemap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/skull.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sliders-h.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/smile-beam.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/smile-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/smile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/smoking-ban.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/smoking.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/snowflake.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/solar-panel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-alpha-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-alpha-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-amount-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-amount-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-numeric-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-numeric-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sort.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/spa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/space-shuttle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/spinner.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/splotch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/spray-can.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/square-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stamp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/star-half-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/star-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/star-of-life.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/star.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/step-backward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/step-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stethoscope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sticky-note.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stop-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stopwatch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/store-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/store.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stream.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/street-view.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/strikethrough.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/stroopwafel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/subscript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/subway.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/suitcase-rolling.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/suitcase.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sun.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/superscript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/surprise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/swatchbook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/swimmer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/swimming-pool.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sync-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/sync.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/syringe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/table-tennis.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/table.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tablet-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tablet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tablets.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tachometer-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tags.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tape.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tasks.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/taxi.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/teeth-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/teeth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/terminal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/text-height.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/text-width.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/th-large.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/th-list.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/th.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/theater-masks.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer-empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer-half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer-quarter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer-three-quarters.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thermometer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thumbs-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thumbs-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/thumbtack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/ticket-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/times-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/times.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tint-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tint.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tired.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/toggle-off.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/toggle-on.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/toolbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/trademark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/traffic-light.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/train.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/transgender-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/transgender.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/trash-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/trash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tree.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/trophy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/truck-loading.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/truck-monster.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/truck-moving.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/truck-pickup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/truck.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tshirt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/tv.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/umbrella-beach.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/umbrella.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/underline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/undo-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/undo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/universal-access.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/university.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/unlink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/unlock-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/unlock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-alt-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-astronaut.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-circle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-cog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-edit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-friends.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-graduate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-md.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-ninja.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-secret.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-shield.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-tag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-tie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user-times.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/user.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/users-cog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/users.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/utensil-spoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/utensils.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/vector-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/venus-double.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/venus-mars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/venus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/vial.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/vials.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/video-slash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/volleyball-ball.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/volume-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/volume-off.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/volume-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/walking.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wallet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/warehouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/weight-hanging.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/weight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wheelchair.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wifi.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/window-close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/window-maximize.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/window-minimize.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/window-restore.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wine-glass-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wine-glass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/won-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/wrench.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/x-ray.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/yen-sign.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard_ui.php" afterPath="$PROJECT_DIR$/dashboard_ui.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage_travellers.php" afterPath="$PROJECT_DIR$/manage_travellers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage_trip.php" afterPath="$PROJECT_DIR$/manage_trip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +1352,8 @@
           <file leaf-file-name="manage_trip.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manage_trip.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
-                  <caret line="400" column="33" lean-forward="true" selection-start-line="400" selection-start-column="33" selection-end-line="400" selection-end-column="33" />
+                <state relative-caret-position="342">
+                  <caret line="424" column="31" lean-forward="true" selection-start-line="424" selection-start-column="31" selection-end-line="424" selection-end-column="31" />
                   <folding>
                     <marker date="1533488516622" expanded="true" signature="9597:9663" ph="select * fro... trip_expenese" />
                     <marker date="1533488516622" expanded="true" signature="9597:9666" ph="select * fro... trip_expenese" />
@@ -86,7 +1381,7 @@
           <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dashboard.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
+                <state relative-caret-position="324">
                   <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
                   <folding>
                     <marker date="1533465240140" expanded="true" signature="421:545" ph="select * fro... trip_list" />
@@ -180,7 +1475,7 @@
           <file leaf-file-name="dashboard_ui.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4016">
+                <state relative-caret-position="2826">
                   <caret line="157" column="85" lean-forward="false" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
                   <folding>
                     <marker date="1533487378820" expanded="true" signature="7331:7427" ph="select u_id,... trip_user" />
@@ -196,7 +1491,7 @@
           <file leaf-file-name="manage_travellers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manage_travellers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="825">
+                <state relative-caret-position="18">
                   <caret line="262" column="52" lean-forward="false" selection-start-line="262" selection-start-column="52" selection-end-line="262" selection-end-column="52" />
                   <folding>
                     <marker date="1533487920196" expanded="true" signature="7587:7654" ph="SELECT DISTI... trip_traveller" />
@@ -220,11 +1515,6 @@
                     <marker date="1533487920196" expanded="true" signature="13016:13067" ph="select u_id trip_traveller" />
                     <marker date="1533487920196" expanded="true" signature="13854:13897" ph="select u_id,... trip_user" />
                     <marker date="1533487920196" expanded="true" signature="13854:13916" ph="select u_id,... trip_user" />
-                    <marker date="1533487920196" expanded="true" signature="15346:15580" ph="..." />
-                    <marker date="1533487920196" expanded="true" signature="15681:15903" ph="..." />
-                    <marker date="1533487920196" expanded="true" signature="15712:15896" ph="..." />
-                    <marker date="1533487920196" expanded="true" signature="15748:15885" ph="..." />
-                    <marker date="1533487920196" expanded="true" signature="15785:15870" ph="..." />
                     <marker date="1533487920196" expanded="true" signature="15945:15950" ph="..." />
                   </folding>
                 </state>
@@ -384,6 +1674,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,14 +1690,21 @@
               <item name="TRIP" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,7 +1878,8 @@
       <workItem from="1533365201841" duration="15997000" />
       <workItem from="1533446452728" duration="11085000" />
       <workItem from="1533469291285" duration="193000" />
-      <workItem from="1533483432676" duration="5426000" />
+      <workItem from="1533483432676" duration="5531000" />
+      <workItem from="1533529703501" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Minor --fix -0&quot;">
       <created>1531461729288</created>
@@ -775,11 +2077,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533469432509</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="&quot;Add Minor Updates -OK&quot;">
+      <created>1533489072104</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1533489072104</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357105000" />
+    <option name="totallyTimeSpent" value="357390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,12 +2110,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -831,7 +2140,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;Dashboard design&quot;" />
     <MESSAGE value="&quot;Dashboard design -v1&quot;" />
     <MESSAGE value="&quot;Dashboard design -Join Update&quot;" />
     <MESSAGE value="&quot;Dashboard design -SQL Select update&quot;" />
@@ -856,7 +2164,8 @@
     <MESSAGE value="&quot;Add Validation -OK&quot;" />
     <MESSAGE value="&quot;Add Background -OK&quot;" />
     <MESSAGE value="&quot;Add Report -OK&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add Report -OK&quot;" />
+    <MESSAGE value="&quot;Add Minor Updates -OK&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add Minor Updates -OK&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,7 +2283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +2458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="178" column="9" lean-forward="false" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +2549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="324">
           <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
             <marker date="1533465240140" expanded="true" signature="421:545" ph="select * fro... trip_list" />
@@ -1264,7 +2571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4016">
+        <state relative-caret-position="2826">
           <caret line="157" column="85" lean-forward="false" selection-start-line="157" selection-start-column="85" selection-end-line="157" selection-end-column="85" />
           <folding>
             <marker date="1533487378820" expanded="true" signature="7331:7427" ph="select u_id,... trip_user" />
@@ -1274,7 +2581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage_travellers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="18">
           <caret line="262" column="52" lean-forward="false" selection-start-line="262" selection-start-column="52" selection-end-line="262" selection-end-column="52" />
           <folding>
             <marker date="1533487920196" expanded="true" signature="7587:7654" ph="SELECT DISTI... trip_traveller" />
@@ -1298,11 +2605,6 @@
             <marker date="1533487920196" expanded="true" signature="13016:13067" ph="select u_id trip_traveller" />
             <marker date="1533487920196" expanded="true" signature="13854:13897" ph="select u_id,... trip_user" />
             <marker date="1533487920196" expanded="true" signature="13854:13916" ph="select u_id,... trip_user" />
-            <marker date="1533487920196" expanded="true" signature="15346:15580" ph="..." />
-            <marker date="1533487920196" expanded="true" signature="15681:15903" ph="..." />
-            <marker date="1533487920196" expanded="true" signature="15712:15896" ph="..." />
-            <marker date="1533487920196" expanded="true" signature="15748:15885" ph="..." />
-            <marker date="1533487920196" expanded="true" signature="15785:15870" ph="..." />
             <marker date="1533487920196" expanded="true" signature="15945:15950" ph="..." />
           </folding>
         </state>
@@ -1310,8 +2612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage_trip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="400" column="33" lean-forward="true" selection-start-line="400" selection-start-column="33" selection-end-line="400" selection-end-column="33" />
+        <state relative-caret-position="342">
+          <caret line="424" column="31" lean-forward="true" selection-start-line="424" selection-start-column="31" selection-end-line="424" selection-end-column="31" />
           <folding>
             <marker date="1533488516622" expanded="true" signature="9597:9663" ph="select * fro... trip_expenese" />
             <marker date="1533488516622" expanded="true" signature="9597:9666" ph="select * fro... trip_expenese" />
