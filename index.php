@@ -88,13 +88,25 @@ if(isset($_SESSION)){
             return false
           }
         }
+        else{
+          pwdErrorMessage = document.getElementById('mobileValidationMessage')
+          pwdErrorMessage.classList.add('text-danger')
+          pwdErrorMessage.innerHTML = 'Enter phone number'
+        }
+
         if (Password !== RepeatPassword) {
           errorBox.classList.remove('text-success')
           errorBox.classList.add('text-danger')
           errorBox.innerHTML = 'Password is not matching.'
           return false
         }
-        else if (Password === RepeatPassword) {
+        else if(Password.length <= 0){
+          errorBox.classList.remove('text-success')
+          errorBox.classList.add('text-danger')
+          errorBox.innerHTML = 'Enter Passsword.'
+          return false
+        }
+        else if (Password === RepeatPassword && Password !== null) {
           errorBox.classList.remove('text-danger')
           errorBox.classList.add('text-success')
           errorBox.innerHTML = 'Password Matched.'
@@ -160,7 +172,7 @@ if(isset($_SESSION)){
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com"
+                <input class="form-control" type="email" name="email" id="email" placeholder="james.bond@spectre.com"
                        required maxlength="45"/>
             </div>
             <div class="form-group">
