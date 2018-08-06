@@ -46,10 +46,7 @@
     <a class="navbar-brand bg-white-text" href="#" > TRIPP.</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul class="navbar-nav mr-auto ">
-            <li class="nav-item active">
-                <a class="nav-link bg-white-text" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
+        <ul class="navbar-nav mr-auto">
         </ul>
         <ul class="navbar-nav navbar-right">
             <li class="nav-item">

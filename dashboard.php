@@ -15,17 +15,6 @@ if (isset($_SESSION["username"])) {
     $username_ = $_SESSION["current_user"];
     $current_user_id = $_SESSION['current_user_id'];
 
-    /* Select the list of trips created */
-    $select_list_query = "select * from trip_list INNER JOIN trip_traveller where trip_list.t_creator_id = $current_user_id and trip_traveller.u_id = $current_user_id";
-    $result = mysqli_query($connection, $select_list_query);
-    $index = mysqli_fetch_assoc($result);    // Trip details
-
-    $trip_name = $index['t_name'];
-    $trip_url = $index['t_url'];
-    $trip_start_date = $index['t_start_date'];
-    $trip_end_date = $index['t_end_date'];
-    $trip_creator_id = $index['t_creator_id'];
-
     /* Get total trip count */
     $total_trip_count_query = "select count(*) as count from trip_list INNER JOIN trip_traveller where trip_list.t_creator_id = $current_user_id and trip_traveller.u_id = $current_user_id";
     $trip_count_query_result = mysqli_query($connection, $total_trip_count_query);
@@ -34,8 +23,8 @@ if (isset($_SESSION["username"])) {
 
     include("dashboard_ui.php");
 
-
-    $sql = "SELECT * FROM trip_list";
+    /* Select the list of trips created */
+    $sql = "SELECT * FROM trip_list INNER JOIN trip_traveller ON trip_list.t_id = trip_traveller.t_id where trip_traveller.u_id = '$current_user_id' ORDER BY trip_list.t_id DESC";
     echo "<div class='container'>";
     echo "<div >";
     echo "<div class='row col-md-12'>";

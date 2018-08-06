@@ -285,7 +285,7 @@ $trip_id = $_GET['t_id'];
         include('connection.php');
         $trip_id = $_GET['t_id'];
         $current_user_id = $_SESSION['current_user_id'];
-        $select_expense_sql = "select * from trip_expenese where u_id = $current_user_id and t_id = $trip_id";
+        $select_expense_sql = "select * from trip_expenese where u_id = $current_user_id and t_id = $trip_id ORDER BY ex_id DESC";
         if ($result = mysqli_query($connection, $select_expense_sql)) {
             if (mysqli_num_rows($result) > 0) {
                 while ($row = mysqli_fetch_array($result)) {
