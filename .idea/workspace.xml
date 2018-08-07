@@ -7,7 +7,6 @@
     <list default="true" id="ea3cb6c2-a2d0-4c22-8b1d-12752f5fdc39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard_ui.php" afterPath="$PROJECT_DIR$/dashboard_ui.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage_trip.php" afterPath="$PROJECT_DIR$/manage_trip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +19,7 @@
     <favorites_list name="TRIP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.13701741">
+    <splitter split-orientation="horizontal" split-proportion="0.7397882">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="report_trip.php" pinned="false" current-in-tab="false">
@@ -80,7 +79,7 @@
           <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dashboard.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
+                <state relative-caret-position="1296">
                   <caret line="72" column="121" lean-forward="false" selection-start-line="72" selection-start-column="121" selection-end-line="72" selection-end-column="121" />
                   <folding>
                     <marker date="1533550288954" expanded="true" signature="414:554" ph="select count... " />
@@ -149,18 +148,11 @@
           <file leaf-file-name="dashboard_ui.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="948">
-                  <caret line="329" column="19" lean-forward="false" selection-start-line="329" selection-start-column="19" selection-end-line="329" selection-end-column="19" />
+                <state relative-caret-position="300">
+                  <caret line="331" column="66" lean-forward="true" selection-start-line="331" selection-start-column="66" selection-end-line="331" selection-end-column="66" />
                   <folding>
-                    <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#nav#1;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#button#0;n#ol#0;n#nav#1;n#html#0;n#!!top" expanded="true" />
                     <element signature="e#3742#3749#1#HTML" expanded="true" />
-                    <element signature="e#13268#13654#0#HTML" expanded="false" />
-                    <element signature="e#15233#15303#0#HTML" expanded="false" />
-                    <element signature="e#15345#15547#0#HTML" expanded="false" />
-                    <marker date="1533631966767" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
+                    <marker date="1533634047501" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
                   </folding>
                 </state>
               </provider>
@@ -173,8 +165,8 @@
           <file leaf-file-name="manage_trip.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manage_trip.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="206" column="24" lean-forward="true" selection-start-line="206" selection-start-column="24" selection-end-line="206" selection-end-column="24" />
+                <state relative-caret-position="208">
+                  <caret line="215" column="13" lean-forward="false" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
                   <folding>
                     <marker date="1533573360226" expanded="true" signature="10330:10387" ph="select t_sta... trip_list" />
                     <marker date="1533573360226" expanded="true" signature="10330:10398" ph="select * fro... trip_expenese" />
@@ -216,8 +208,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>start_date</find>
-      <find>modal</find>
       <find>welcome</find>
       <find>logout</find>
       <find>action</find>
@@ -246,6 +236,8 @@
       <find>trip-member</find>
       <find>&quot;trip-member</find>
       <find>function</find>
+      <find>re</find>
+      <find>&amp;times</find>
     </findStrings>
     <replaceStrings>
       <replace>signin</replace>
@@ -546,7 +538,8 @@
       <workItem from="1533483432676" duration="5531000" />
       <workItem from="1533529703501" duration="16315000" />
       <workItem from="1533564185809" duration="7115000" />
-      <workItem from="1533616938731" duration="12259000" />
+      <workItem from="1533616938731" duration="12337000" />
+      <workItem from="1533632545984" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Minor --fix -0&quot;">
       <created>1531461729288</created>
@@ -814,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533559575414</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="&quot;Dummy Validation minor update&quot;">
+      <created>1533632379158</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1533632379158</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392899000" />
+    <option name="totallyTimeSpent" value="394485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,8 +840,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -851,8 +851,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11875945" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11875945" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -870,7 +870,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;Dashboard design -Action Button swap&quot;" />
     <MESSAGE value="&quot;Dashboard design -Major update&quot;" />
     <MESSAGE value="&quot;Dashboard design -Add Members&quot;" />
     <MESSAGE value="&quot;Add traveller only&quot;" />
@@ -895,7 +894,8 @@
     <MESSAGE value="&quot;Add Manage Minor Update&quot;" />
     <MESSAGE value="&quot;Add dashboard update&quot;" />
     <MESSAGE value="&quot;Add Minor update&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add Minor update&quot;" />
+    <MESSAGE value="&quot;Dummy Validation minor update&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dummy Validation minor update&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1013,6 +1013,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,7 +1281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="1296">
           <caret line="72" column="121" lean-forward="false" selection-start-line="72" selection-start-column="121" selection-end-line="72" selection-end-column="121" />
           <folding>
             <marker date="1533550288954" expanded="true" signature="414:554" ph="select count... " />
@@ -1300,28 +1301,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="948">
-          <caret line="329" column="19" lean-forward="false" selection-start-line="329" selection-start-column="19" selection-end-line="329" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#ol#0;n#nav#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3742#3749#1#HTML" expanded="true" />
-            <element signature="e#13268#13654#0#HTML" expanded="false" />
-            <element signature="e#15233#15303#0#HTML" expanded="false" />
-            <element signature="e#15345#15547#0#HTML" expanded="false" />
-            <marker date="1533631966767" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage_trip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="206" column="24" lean-forward="true" selection-start-line="206" selection-start-column="24" selection-end-line="206" selection-end-column="24" />
+        <state relative-caret-position="208">
+          <caret line="215" column="13" lean-forward="false" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
           <folding>
             <marker date="1533573360226" expanded="true" signature="10330:10387" ph="select t_sta... trip_list" />
             <marker date="1533573360226" expanded="true" signature="10330:10398" ph="select * fro... trip_expenese" />
@@ -1345,6 +1328,17 @@
             <marker date="1533573360226" expanded="true" signature="14706:14741" ph="select * fro... trip_user" />
             <marker date="1533573360226" expanded="true" signature="15285:15301" ph="..." />
             <marker date="1533573360226" expanded="true" signature="18530:18536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="331" column="66" lean-forward="true" selection-start-line="331" selection-start-column="66" selection-end-line="331" selection-end-column="66" />
+          <folding>
+            <element signature="e#3742#3749#1#HTML" expanded="true" />
+            <marker date="1533634047501" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
           </folding>
         </state>
       </provider>

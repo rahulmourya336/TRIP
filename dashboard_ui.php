@@ -316,7 +316,12 @@
   }
 
   function refreshPage(){
-window.location.reload()
+    url = window.location.href;
+    if(url.split(/(\?)/) !== -1){
+      url = url.split("?")[0]
+      window.location.assign(url)
+    }
+
   }
 
   function triggerUpdateTrip (trip_id) {
