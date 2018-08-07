@@ -321,6 +321,9 @@
       url = url.split("?")[0]
       window.location.assign(url)
     }
+    else{
+      window.location.reload(true)
+    }
 
   }
 

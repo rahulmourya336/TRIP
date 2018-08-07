@@ -148,11 +148,11 @@
           <file leaf-file-name="dashboard_ui.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="331" column="66" lean-forward="true" selection-start-line="331" selection-start-column="66" selection-end-line="331" selection-end-column="66" />
+                <state relative-caret-position="174">
+                  <caret line="324" column="33" lean-forward="false" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
                   <folding>
                     <element signature="e#3742#3749#1#HTML" expanded="true" />
-                    <marker date="1533634047501" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
+                    <marker date="1533634219358" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
                   </folding>
                 </state>
               </provider>
@@ -539,7 +539,7 @@
       <workItem from="1533529703501" duration="16315000" />
       <workItem from="1533564185809" duration="7115000" />
       <workItem from="1533616938731" duration="12337000" />
-      <workItem from="1533632545984" duration="1508000" />
+      <workItem from="1533632545984" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Minor --fix -0&quot;">
       <created>1531461729288</created>
@@ -814,11 +814,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533632379158</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="&quot;Dummy Validation minor update -OK&quot;">
+      <created>1533634122839</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1533634122839</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394485000" />
+    <option name="totallyTimeSpent" value="394631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,7 +877,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;Dashboard design -Major update&quot;" />
     <MESSAGE value="&quot;Dashboard design -Add Members&quot;" />
     <MESSAGE value="&quot;Add traveller only&quot;" />
     <MESSAGE value="&quot;Add manage trip&quot;" />
@@ -895,7 +901,8 @@
     <MESSAGE value="&quot;Add dashboard update&quot;" />
     <MESSAGE value="&quot;Add Minor update&quot;" />
     <MESSAGE value="&quot;Dummy Validation minor update&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dummy Validation minor update&quot;" />
+    <MESSAGE value="&quot;Dummy Validation minor update -OK&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dummy Validation minor update -OK&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,11 +1341,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard_ui.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="331" column="66" lean-forward="true" selection-start-line="331" selection-start-column="66" selection-end-line="331" selection-end-column="66" />
+        <state relative-caret-position="174">
+          <caret line="324" column="33" lean-forward="false" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
           <folding>
             <element signature="e#3742#3749#1#HTML" expanded="true" />
-            <marker date="1533634047501" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
+            <marker date="1533634219358" expanded="true" signature="7301:7397" ph="select u_id,... trip_user" />
           </folding>
         </state>
       </provider>
