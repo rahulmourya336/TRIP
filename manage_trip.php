@@ -1,9 +1,3 @@
-<!--/**-->
-<!-- * Created by IntelliJ IDEA.-->
-<!-- * User: RadioactiveScript-->
-<!-- * Date: 7/30/2018-->
-<!-- * Time: 10:16 AM-->
-<!-- */-->
 <?php
 
 session_start();
@@ -201,26 +195,34 @@ $trip_id = $_GET['t_id'];
       }
 
       function validateForm(){
-            x = document.getElementById("expense_amount").value
+            var x = document.getElementById("expense_amount").value
         if(x.length > 10){
                 document.getElementById("amount_error").innerHTML = "Should be less than 10 digit"
           return false
         }
       }
 
-      function validateDate () {
-        start_date = document.getElementById('trip-starting-date').value
-        end_date = document.getElementById('trip-ending-date').value
-        dateErrorBox = document.getElementById('dateErrorMessage')
+      function validateDate(){
 
-        if (start_date > end_date) {
-          console.log("error")
-          dateErrorBox.innerHTML = 'Invalid Date'
+        now = new Date()
+
+        day = ('0' + now.getDate()).slice(-2)
+        month = ('0' + (now.getMonth() + 1)).slice(-2)
+        today_ = now.getFullYear()+ '-' + (month) + '-' + (day)
+
+        element = document.getElementById('expense_date')
+        start_date = element.getAttribute('aria-valuemin')
+        end_date = element.getAttribute('aria-valuemax')
+        current_date = $('#expense_date').html($('#expense_date').val())
+
+        console.log(current_date)
+
+        if (current_date >= start_date && current_date <= end_date) {
+          document.getElementById('dateErrorMessage').innerHTML = 'Add values between ' + start_date + ' to ' + end_date
           return false
         }
         else {
-          console.log("Not error")
-          dateErrorBox.innerHTML = ''
+          document.getElementById('dateErrorMessage').innerHTML = ''
           return true
         }
       }
@@ -305,7 +307,6 @@ $trip_id = $_GET['t_id'];
         $date_result = mysqli_fetch_assoc($date_result);
         $start_date  = $date_result['t_start_date'];
         $end_date    = $date_result['t_end_date'];
-
 
         include('connection.php');
         $trip_id = $_GET['t_id'];
@@ -411,9 +412,8 @@ $trip_id = $_GET['t_id'];
                             <label for="expense_date" class="col-sm-2 col-form-label">Date</label>
                             <div class="col-sm-10">
                                 <input type="date" class="form-control" id="expense_date"
-                                       placeholder="Select Trip Starting Date" required data-date-format="YYYY MM DD"
-                                       value="2018-08-09" name="expense_date">
-                                <div id="dateErrorMessage" class="text-danger"></div>
+                                       placeholder="Select Trip Starting Date" required name="expense_date" aria-valuemin="<?=$start_date ?>" aria-valuemax="<?=$end_date ?>">
+                                <h6 id="dateErrorMessage" class="text-danger small" style="font-size: 1.2rem"></h6>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -424,9 +424,10 @@ $trip_id = $_GET['t_id'];
                                 <h6 id="amount_error" class="text-danger small"></h6>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn" onclick="return validateForm(<?=$start_date ?>, <?=$end_date ?>)">Add Expense
+
+                        <button type="submit" class="btn btn-primary pull-right" id="add-expense-btn" onclick="return validateDate()">Add Expense
                         </button>
-                        <button type="submit" class="btn btn-success pull-right" id="update-expense-btn">Update Expense
+                        <button type="submit" class="btn btn-success pull-right" id="update-expense-btn" onclick="return validateDate()">Update Expense
                         </button>
                     </form>
                     <!--Form End-->
@@ -452,11 +453,16 @@ $trip_id = $_GET['t_id'];
 
 
 <script type="text/javascript">
+
   $('#alert_message').modal('show')
 
   setTimeout(function () {
     $('#alert_message').modal('hide')
   }, 3000)
+
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById('expense_date').value = date;
 </script>
 <script src="js/sb-admin.js"></script>
 

@@ -88,7 +88,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">Add Trip Information</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" onclick="refreshPage()">&times;</button>
 
             </div>
             <div class="modal-body">
@@ -115,15 +115,14 @@
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-starting-date"
                                    placeholder="Select Trip Starting Date" required data-date-format="YYYY MM DD"
-                                   value="2018-08-09" name="trip-starting-date">
+                                    name="trip-starting-date">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="trip-ending-date" class="col-sm-2 col-form-label">Ending Date</label>
                         <div class="col-sm-10">
                             <input type="date" class="form-control" id="trip-ending-date"
-                                   placeholder="Select Trip Ending Date" required data-date-format="DD MMMM YYYY"
-                                   value="2018-08-09" name="trip-ending-date">
+                                   placeholder="Select Trip Ending Date" required data-date-format="YYYY MM DD" name="trip-ending-date">
 
                             <div id="dateErrorMessage" class="text-danger"></div>
                         </div>
@@ -173,17 +172,15 @@
 
                     </div>
                     <button type="submit" class="btn btn-primary pull-right" id="add-trip-btn"
-                            onclick="return validateDate();checkCheckboxStatus();triggerAddTrip();" onclose="checkCheckboxStatus()">Add Trip
-                    </button>
-                    <button type="submit" class="btn btn-success pull-right" id="update-trip-btn"
-                            onclick="return validateDate();checkCheckboxStatus();triggerUpdateTrip();" onsubmit="return validateDate();" >Update Trip
+                            onclick="return validateCombo(1);" onclose="return checkCheckboxStatus();" onmouseover="">Add Trip
                     </button>
 
+                    <button type="submit" class="btn btn-success pull-right" id="update-trip-btn" onclick="return validateCombo()" >Update Trip</button>
                 </form>
                 <!--Form End-->
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal" onclick="refreshPage()">Close</button>
             </div>
         </div>
 
@@ -215,7 +212,10 @@
   })
   window.onload = function () {
 
-    $('trip_status').hide()
+    today = new Date()
+    date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
+    document.getElementById('trip-starting-date').value = date
+    document.getElementById('trip-ending-date').value = date
 
     var dateControl = document.querySelector('input[type="date"]')
     dateControl.value = '2017-06-01'
@@ -304,12 +304,19 @@
     }
   }
     var memberList;
+
   function triggerAddTrip () {
     document.getElementById('trip_form').setAttribute('action', './add_trip.php')
     document.getElementById('add-trip-btn').style.display = 'block'
     document.getElementById('update-trip-btn').style.display = 'none'
-    memberList.add();
+    if (memberList !== undefined) {
+      memberList.add()
+    }
     console.log('In trigger add trip()')
+  }
+
+  function refreshPage(){
+window.location.reload()
   }
 
   function triggerUpdateTrip (trip_id) {
@@ -319,15 +326,33 @@
     document.getElementById('trip_form').setAttribute('action', trip_id)
     document.getElementById('add-trip-btn').style.display = 'none'
     document.getElementById('update-trip-btn').style.display = 'block'
-    memberList = $("#member_list")
-    $("#member_list").remove();
+    memberList = $('#member_list')
+    $('#member_list').remove()
     form_action = document.querySelector('#trip_form').getAttribute('action')
     if (form_action.search('update') != -1) {
       a = document.querySelector('#trip_form').querySelector('#update-trip-btn')
       a.removeAttribute('onclick')
     }
-
   }
+
+  function validateDate () {
+    start_date = document.getElementById('trip-starting-date').value
+    end_date = document.getElementById('trip-ending-date').value
+    dateErrorBox = document.getElementById('dateErrorMessage')
+
+    if (start_date > end_date) {
+      console.log("error")
+      dateErrorBox.innerHTML = 'Invalid Date'
+      return false
+    }
+    else {
+      console.log("Not error")
+      dateErrorBox.innerHTML = ' '
+      return true
+    }
+  }
+
+
 
   function clearForm () {
     document.getElementById('trip_form').reset()
@@ -343,23 +368,15 @@
     return;
   }
 
-  function validateDate () {
-    start_date = document.getElementById('trip-starting-date').value
-    end_date = document.getElementById('trip-ending-date').value
-    dateErrorBox = document.getElementById('dateErrorMessage')
-
-    if (start_date > end_date) {
-      console.log("error")
-      dateErrorBox.innerHTML = 'Invalid Date'
-      return false
-    }
-    else {
-      console.log("Not error")
-      dateErrorBox.innerHTML = ''
-      return true
+  function validateCombo (status) {
+    dateFlag = validateDate()
+    console.log("Date flag value: "+ dateFlag)
+    if (status) {
+      checkboxFlag = checkCheckboxStatus()
+      resultFlag = checkboxFlag && dateFlag
+      return resultFlag
     }
   }
-
 
   function showImages () {
   //    var a = ''
